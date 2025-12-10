@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Playground — MySite</title>
+  <meta name="description" content="Interactive playground to prototype HTML/CSS/JS live in the browser">
+  <link rel="stylesheet" href="style_play.css">
+  <link rel="prefetch" href="index.html">
+  <link rel="prefetch" href="blog.html">
+</head>
+<body class="theme-light">
+  <header class="site-header">
+    <nav class="nav">
+      <div class="nav-left">
+        <a class="logo" href="index.html">MySite</a>
+      </div>
+      <div class="nav-right">
+        <a href="index.html#about">About</a>
+        <a href="index.html#projects">Projects</a>
+        <a href="index.html#contact">Contact</a>
+        <a href="blog.html">Blog</a>
+        <a class="active" href="playground.html">Playground</a>
+        <button id="themeToggle" aria-label="Toggle theme" class="icon-btn">🌓</button>
+      </div>
+    </nav>
+  </header>
+
+  <main class="container">
+    <section class="hero">
+      <div class="hero-inner">
+        <h1>Playground</h1>
+        <p>Rapidly prototype HTML, CSS and JavaScript. Live preview, export, and share snippets.</p>
+      </div>
+    </section>
+
+    <section class="playground">
+      <div class="editor-panel">
+        <div class="editor-row">
+          <label for="htmlEditor">HTML</label>
+          <textarea id="htmlEditor" class="editor textarea-html" spellcheck="false"><!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Example</title>
+  </head>
+  <body>
+    <h2>Hello from the playground</h2>
+    <div id="app"></div>
+  </body>
+</html>
+</textarea>
+        </div>
+
+        <div class="editor-row">
+          <label for="cssEditor">CSS</label>
+          <textarea id="cssEditor" class="editor textarea-css" spellcheck="false">body{font-family:system-ui, -apple-system, sans-serif;margin:16px}h2{color:#0b5;}</textarea>
+        </div>
+
+        <div class="editor-row">
+          <label for="jsEditor">JavaScript</label>
+          <textarea id="jsEditor" class="editor textarea-js" spellcheck="false">document.getElementById('app').innerHTML = '<p>Rendered with JS</p>';</textarea>
+        </div>
+
+        <div class="editor-actions">
+          <button id="runBtn" class="btn">Run</button>
+          <button id="autoRunToggle" class="btn btn-ghost" aria-pressed="true">Auto-run</button>
+          <button id="downloadBtn" class="btn">Download HTML</button>
+          <button id="clearBtn" class="btn btn-ghost">Reset</button>
+        </div>
+      </div>
+
+      <div class="preview-panel">
+        <div class="preview-toolbar">
+          <div class="preview-label">Live Preview</div>
+          <div class="preview-state" id="previewState">Idle</div>
+        </div>
+        <iframe id="previewFrame" title="Live preview" sandbox="allow-scripts allow-same-origin"></iframe>
+      </div>
+    </section>
+
+    <section class="notes">
+      <h3>Tips</h3>
+      <ul>
+        <li>Use <kbd>Ctrl/⌘ + Enter</kbd> to run the preview quickly.</li>
+        <li>Auto-run keeps the preview in sync while typing (debounced).</li>
+        <li>Sandboxed iframe prevents accidental navigation and isolates the preview.</li>
+      </ul>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div>© 2025 Your Name — Built with a clean, accessible design.</div>
+  </footer>
+
+  <script src="script_play.js" defer></script>
+</body>
+</html>
