@@ -1,97 +1,103 @@
 <!doctype html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
   <title>Playground — MySite</title>
-  <meta name="description" content="Interactive playground to prototype HTML/CSS/JS live in the browser">
+  <meta name="description" content="A sleek professional playground and showcase for HTML/CSS/JS experiments." />
   <link rel="stylesheet" href="style_play.css">
-  <link rel="prefetch" href="index.html">
-  <link rel="prefetch" href="blog.html">
 </head>
-<body class="theme-light">
+<body>
   <header class="site-header">
-    <nav class="nav">
-      <div class="nav-left">
-        <a class="logo" href="index.html">MySite</a>
-      </div>
-      <div class="nav-right">
+    <div class="container nav">
+      <a class="logo" href="index.html">MySite</a>
+      <nav class="links" aria-label="Main navigation">
         <a href="index.html#about">About</a>
         <a href="index.html#projects">Projects</a>
-        <a href="index.html#contact">Contact</a>
         <a href="blog.html">Blog</a>
-        <a class="active" href="playground.html">Playground</a>
-        <button id="themeToggle" aria-label="Toggle theme" class="icon-btn">🌓</button>
-      </div>
-    </nav>
+        <a href="playground.html" class="active">Playground</a>
+        <a href="index.html#contact">Contact</a>
+      </nav>
+      <button id="menuToggle" class="menu-toggle" aria-expanded="false" aria-label="Open menu">☰</button>
+    </div>
   </header>
 
-  <main class="container">
+  <main>
     <section class="hero">
-      <div class="hero-inner">
-        <h1>Playground</h1>
-        <p>Rapidly prototype HTML, CSS and JavaScript. Live preview, export, and share snippets.</p>
+      <div class="container hero-grid">
+        <div class="hero-content">
+          <h1 class="gradient-text">Playground</h1>
+          <p class="lead">A professional canvas for experiments — add HTML, CSS and JS directly to the stage below. Smooth animations, accessibility-focused markup and responsive design included.</p>
+          <p class="muted">Tip: edit the <code>&lt;section class="stage"&gt;</code> area in this file to add custom snippets. Each snippet can be wrapped in a card.</p>
+        </div>
+        <div class="hero-visual">
+          <div class="card floating" aria-hidden="true">
+            <svg viewBox="0 0 120 120" class="logo-blob"><defs><linearGradient id="g" x1="0" x2="1"><stop offset="0" stop-color="#7c5cff"/><stop offset="1" stop-color="#2dd4bf"/></linearGradient></defs><circle cx="60" cy="60" r="50" fill="url(#g)"/></svg>
+            <div class="card-inside">
+              <h3>Live showcase</h3>
+              <p class="small">Drop HTML snippets inside the `stage` section and style them via the project stylesheet or inline CSS.</p>
+            </div>
+          </div>
+        </div>
       </div>
+      <canvas id="bgCanvas" class="bg-canvas" aria-hidden="true"></canvas>
     </section>
 
-    <section class="playground">
-      <div class="editor-panel">
-        <div class="editor-row">
-          <label for="htmlEditor">HTML</label>
-          <textarea id="htmlEditor" class="editor textarea-html" spellcheck="false"><!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <title>Example</title>
-  </head>
-  <body>
-    <h2>Hello from the playground</h2>
-    <div id="app"></div>
-  </body>
-</html>
-</textarea>
-        </div>
+    <section class="container stage-section" id="stage">
+      <h2>Stage — place custom content here</h2>
 
-        <div class="editor-row">
-          <label for="cssEditor">CSS</label>
-          <textarea id="cssEditor" class="editor textarea-css" spellcheck="false">body{font-family:system-ui, -apple-system, sans-serif;margin:16px}h2{color:#0b5;}</textarea>
-        </div>
+      <!--
+        Example snippet card. Duplicate and replace the inner HTML with any valid markup.
+        Add scripts at the end of this file and target elements by class or id.
+      -->
 
-        <div class="editor-row">
-          <label for="jsEditor">JavaScript</label>
-          <textarea id="jsEditor" class="editor textarea-js" spellcheck="false">document.getElementById('app').innerHTML = '<p>Rendered with JS</p>';</textarea>
-        </div>
+      <section class="stage">
+        <article class="snippet card">
+          <div class="snippet-inner">
+            <h3>Animated Card</h3>
+            <p>This card demonstrates a CSS-powered tilt + glow effect. Replace this content with any HTML.</p>
+            <div class="demo-buttons">
+              <button class="btn btn-primary">Try</button>
+              <button class="btn btn-ghost">Info</button>
+            </div>
+          </div>
+        </article>
 
-        <div class="editor-actions">
-          <button id="runBtn" class="btn">Run</button>
-          <button id="autoRunToggle" class="btn btn-ghost" aria-pressed="true">Auto-run</button>
-          <button id="downloadBtn" class="btn">Download HTML</button>
-          <button id="clearBtn" class="btn btn-ghost">Reset</button>
-        </div>
-      </div>
+        <article class="snippet card pulse">
+          <h3>Pulse Animation</h3>
+          <p>Subtle attention-grabbing animation. Use for notifications or featured content.</p>
+        </article>
 
-      <div class="preview-panel">
-        <div class="preview-toolbar">
-          <div class="preview-label">Live Preview</div>
-          <div class="preview-state" id="previewState">Idle</div>
-        </div>
-        <iframe id="previewFrame" title="Live preview" sandbox="allow-scripts allow-same-origin"></iframe>
-      </div>
+        <!-- Add more snippet cards here -->
+      </section>
     </section>
 
-    <section class="notes">
-      <h3>Tips</h3>
-      <ul>
-        <li>Use <kbd>Ctrl/⌘ + Enter</kbd> to run the preview quickly.</li>
-        <li>Auto-run keeps the preview in sync while typing (debounced).</li>
-        <li>Sandboxed iframe prevents accidental navigation and isolates the preview.</li>
-      </ul>
+    <section class="container features">
+      <h2>Capabilities</h2>
+      <div class="grid">
+        <div class="feature">
+          <h4>Custom HTML</h4>
+          <p>Insert any markup inside the <code>.stage</code> section. Keep semantics and accessibility in mind.</p>
+        </div>
+        <div class="feature">
+          <h4>Styling</h4>
+          <p>Leverage the global stylesheet or add inline styles for one-off experiments.</p>
+        </div>
+        <div class="feature">
+          <h4>Scripts</h4>
+          <p>Use the included <code>script.js</code> to wire interactivity, animations, or lightweight canvas effects.</p>
+        </div>
+        <div class="feature">
+          <h4>Export</h4>
+          <p>Copy results directly into a new post or export pages from your repo.</p>
+        </div>
+      </div>
     </section>
 
   </main>
 
   <footer class="site-footer">
-    <div>© 2025 Your Name — Built with a clean, accessible design.</div>
+    <div class="container">© 2025 Your Name — Crafted for clarity and motion.</div>
   </footer>
 
   <script src="script_play.js" defer></script>

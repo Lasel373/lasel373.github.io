@@ -1,103 +1,77 @@
-// Theme toggle
+// Navigation toggle for small screens
 (function(){
-  const root = document.documentElement;
-  const stored = localStorage.getItem('site-theme');
-  if (stored === 'dark') document.body.classList.add('theme-dark');
-  const btn = document.getElementById('themeToggle');
+  const btn = document.getElementById('menuToggle');
+  const nav = document.querySelector('.links');
   btn.addEventListener('click', () => {
-    document.body.classList.toggle('theme-dark');
-    const nowDark = document.body.classList.contains('theme-dark');
-    localStorage.setItem('site-theme', nowDark ? 'dark' : 'light');
+    const expanded = btn.getAttribute('aria-expanded') === 'true';
+    btn.setAttribute('aria-expanded', String(!expanded));
+    nav.style.display = expanded ? '' : 'flex';
   });
 })();
 
-// Playground logic
+// Simple canvas background — floating particles
 (function(){
-  const htmlEditor = document.getElementById('htmlEditor');
-  const cssEditor = document.getElementById('cssEditor');
-  const jsEditor = document.getElementById('jsEditor');
-  const runBtn = document.getElementById('runBtn');
-  const downloadBtn = document.getElementById('downloadBtn');
-  const preview = document.getElementById('previewFrame');
-  const autoRunToggle = document.getElementById('autoRunToggle');
-  const previewState = document.getElementById('previewState');
-  let autoRun = true;
-  let timeout = null;
+  const canvas = document.getElementById('bgCanvas');
+  if (!canvas) return;
+  const ctx = canvas.getContext('2d');
+  let w, h, particles;
 
-  function buildSource(){
-    const html = htmlEditor.value;
-    const css = `<style>${cssEditor.value}</style>`;
-    const js = `<script>try{${jsEditor.value}}catch(e){console.error(e)}<\/script>`;
-    return html.replace('</head>', css + '</head>') + js;
+  function resize(){
+    w = canvas.width = Math.round(canvas.clientWidth * devicePixelRatio);
+    h = canvas.height = Math.round(canvas.clientHeight * devicePixelRatio);
+    ctx.scale(devicePixelRatio, devicePixelRatio);
   }
 
-  function setPreview(src){
-    preview.srcdoc = src;
-    previewState.textContent = 'Updated ' + new Date().toLocaleTimeString();
+  function initParticles(n=24){
+    particles = Array.from({length:n}).map(()=>({
+      x: Math.random()*canvas.clientWidth,
+      y: Math.random()*canvas.clientHeight,
+      r: 6 + Math.random()*20,
+      vx: (Math.random()-0.5)*0.2,
+      vy: (Math.random()-0.5)*0.2,
+      hue: 180 + Math.random()*140
+    }));
   }
 
-  function run(){
-    setPreview(buildSource());
-  }
+  function draw(){
+    ctx.clearRect(0,0,canvas.clientWidth,canvas.clientHeight);
+    particles.forEach(p=>{
+      p.x += p.vx; p.y += p.vy;
+      if (p.x < -50) p.x = canvas.clientWidth + 50;
+      if (p.x > canvas.clientWidth + 50) p.x = -50;
+      if (p.y < -50) p.y = canvas.clientHeight + 50;
+      if (p.y > canvas.clientHeight + 50) p.y = -50;
 
-  runBtn.addEventListener('click', run);
-
-  autoRunToggle.addEventListener('click', () => {
-    autoRun = !autoRun;
-    autoRunToggle.setAttribute('aria-pressed', autoRun ? 'true' : 'false');
-    autoRunToggle.classList.toggle('active');
-  });
-
-  [htmlEditor, cssEditor, jsEditor].forEach(el => {
-    el.addEventListener('input', () => {
-      if (!autoRun) return;
-      clearTimeout(timeout);
-      timeout = setTimeout(run, 500);
+      const g = ctx.createRadialGradient(p.x,p.y,0,p.x,p.y,p.r);
+      g.addColorStop(0, `hsla(${p.hue},75%,65%,0.18)`);
+      g.addColorStop(1, `hsla(${p.hue},75%,55%,0)`);
+      ctx.fillStyle = g;
+      ctx.beginPath();
+      ctx.arc(p.x,p.y,p.r,0,Math.PI*2);
+      ctx.fill();
     });
-  });
+    requestAnimationFrame(draw);
+  }
 
-  // keyboard shortcut: Ctrl/Cmd + Enter
-  document.addEventListener('keydown', (e) => {
-    if ((e.ctrlKey || e.metaKey) && e.key === 'Enter') {
-      e.preventDefault();
-      run();
-    }
-  });
+  function start(){
+    resize();
+    initParticles(24);
+    draw();
+  }
 
-  // download combined HTML
-  downloadBtn.addEventListener('click', () => {
-    const blob = new Blob([buildSource()], {type: 'text/html'});
-    const url = URL.createObjectURL(blob);
-    const a = document.createElement('a');
-    a.href = url;
-    a.download = 'playground-export.html';
-    document.body.appendChild(a);
-    a.click();
-    a.remove();
-    URL.revokeObjectURL(url);
-  });
-
-  // reset to defaults
-  const clearBtn = document.getElementById('clearBtn');
-  clearBtn.addEventListener('click', () => {
-    htmlEditor.value = '<!DOCTYPE html>\n<html>\n  <head>\n    <meta charset="utf-8">\n    <title>Example</title>\n  </head>\n  <body>\n    <h2>Hello from the playground</h2>\n    <div id="app"></div>\n  </body>\n</html>';
-    cssEditor.value = 'body{font-family:system-ui, -apple-system, sans-serif;margin:16px}h2{color:#0b5;}';
-    jsEditor.value = "document.getElementById('app').innerHTML = '<p>Rendered with JS</p>';";
-    run();
-  });
-
-  // initial run
-  run();
-
-  // small optimization: observe visibility and pause auto-run when preview not visible
-  const observer = new IntersectionObserver(entries => {
-    entries.forEach(ent => {
-      if (!ent.isIntersecting) {
-        previewState.textContent = 'Preview paused (not visible)';
-      } else {
-        previewState.textContent = 'Preview ready';
-      }
-    });
-  });
-  observer.observe(preview);
+  window.addEventListener('resize', () => { clearTimeout(window._bgResize); window._bgResize = setTimeout(resize, 120); });
+  start();
 })();
+
+// Reveal on scroll
+(function(){
+  const observer = new IntersectionObserver((entries)=>{
+    entries.forEach(e=>{
+      if (e.isIntersecting) e.target.classList.add('inview');
+    });
+  }, {threshold: 0.15});
+  document.querySelectorAll('.card, .feature, .snippet').forEach(el=>observer.observe(el));
+})();
+
+// Small helper: allow embedding small code-run sections by author editing the HTML
+// (No automatic editor included — add markup into the .stage section.)
