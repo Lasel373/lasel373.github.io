@@ -1,0 +1,362 @@
+[
+  {
+    "title": "Ich habe da noch eine Rechnung offen mit der linearen Algebra",
+    "link": "posts/post1.html",
+    "excerpt": "Wieso die Vektoralgebra mich manchmal in den Wahnsinn treibt",
+    "date": "2025-12-10",
+    "tags": ["Mathematik","Lineare Algebra", "Funfacts"],
+    "image": "https://picsum.photos/seed/post1/800/520"
+  },
+  {
+    "title": "Das Internet ist eine reine Zumutung",
+    "link": "posts/post2.html",
+    "excerpt": "Wie die moderne Aufmerksamkeitsökonomie das Internet unbenutzbar macht",
+    "date": "2025-12-10",
+    "tags": ["Internet", "Gesellschaft", "eigene Meinung"],
+    "image": "https://picsum.photos/seed/post2/800/520"
+  },
+  {
+    "title": "Was für Arbeitsmodelle existieren und wie man versuchen kann mit diesen umzugehen",
+    "link": "posts/post3.html",
+    "excerpt": "Ein etwas persönlicherer Bericht über verschiedene Arbeitsformen und persönliche Erfahrungen",
+    "date": "2025-12-10",
+    "tags": ["Arbeit", "Lebensstil", "Erfahrungsbericht"],
+    "image": "https://picsum.photos/seed/post3/800/520"
+  },
+  {
+    "title": "\"Perceptual Realism\" und Kritik an zeitgenössischer Filmkultur",
+    "link": "posts/post4.html",
+    "excerpt": "Plotholes, Cliffhanger, \"Suspension of disbelief\", zu viel Glätte, der Unterschied zwischen analoger und digitaler Fotographie und logische Inkonsistenzen",
+    "date": "2025-12-10",
+    "tags": ["Film", "Kultur", "eigene Meinung"],
+    "image": "https://picsum.photos/seed/post4/800/520"
+  },
+  {
+    "title": "Zwischen Sprachpurismus und Kulturwandel: Was passiert da mit der deutschen Sprache?",
+    "link": "posts/post5.html",
+    "excerpt": "Meine Meinung zu Anglizismen, anderen Lehnwörtern, und wie reich die deutsche Sprach doch eigentlich an schönen und nicht allzu hochtrabenden Worten ist",
+    "date": "2025-12-10",
+    "tags": ["Mathematik","Lineare Algebra", "eigene Meinung"],
+    "image": "https://picsum.photos/seed/post5/800/520"
+  },
+  {
+    "title": "Was macht gute Bildung aus?",
+    "link": "posts/post6.html",
+    "excerpt": "Ein paar Anregungen zu Lehre allgemein, sowohl an allgemein-bildenden Schulen, wie auch Hochschulen, und wie ich gute Didaktik oft vermisse",
+    "date": "2025-12-10",
+    "tags": ["Bildung", "Philosophie", "eigene Meinung"],
+    "image": "https://picsum.photos/seed/post6/800/520"
+  },
+  {
+    "title": "Ein kleiner Rant über Betreuungskultur",
+    "link": "posts/post7.html",
+    "excerpt": "Ein etwas persönlicherer Einblick über Mentoring und vergangene Erfahrungen, und was gute Betreuung meiner Meinung nach auszeichnet",
+    "date": "2025-12-10",
+    "tags": ["Gesellschaft", "eigene Meinung", "Erfahrungsbericht"],
+    "image": "https://picsum.photos/seed/post7/800/520"
+  },
+  {
+    "title": "Dataism und der gläserne Mensch",
+    "link": "posts/post8.html",
+    "excerpt": "Wie viel geben wir eigentlich über uns preis? Außerdem gehe ich ein bisschen darauf ein, was für Probleme mit der Mentalität des Datensammelns einhergehen",
+    "date": "2025-12-10",
+    "tags": ["Technologie", "Datenschutz", "eigene Meinung"],
+    "image": "https://picsum.photos/seed/post8/800/520"
+  },
+  {
+    "title": "Trans-/Posthumanismus und das Streben nach Sinn",
+    "link": "posts/post9.html",
+    "excerpt": "Sollte nicht der Mensch im Fokus der Arbeit eines jeden Menschen stehen? Was machen wir mit Menschen, die sogar sich aktiv daran beteiligen, Systeme zu entwerfen, die den Menschen ersetzen sollen. Ich spreche nicht nur von Atombombem, sondern von KI und den teilweise kranken Vorstellungen der Menschen aus dem Silicon Valley",
+    "date": "2025-12-10",
+    "tags": ["Philosophie", "Transhumanismus", "eigene Meinung"],
+    "image": "https://picsum.photos/seed/post9/800/520"
+  },
+  {
+    "title": "die logarithmische Wahrnehmung des Menschen",
+    "link": "posts/post10.html",
+    "excerpt": "Wusstest du, dass die menschliche Wahrnehmung häufig auf logarithmischen und nicht linearen Skalen verläuft?",
+    "date": "2025-12-10",
+    "tags": ["Psychologie", "Wahrnehmung", "Funfacts"],
+    "image": "https://picsum.photos/seed/post10/800/520"
+  },
+  {
+    "title": "die Gefahren und Chancen von KI, bes. generativer KI",
+    "link": "posts/post11.html",
+    "excerpt": "Aus Sicht eines Informatikers: Wie ich persönlich zu KI, bes. generativer KI, u.a. LLMs, Bildgeneratoren, usw. stehe. Welchen Nutzen bringt uns generative KI wirklich?",
+    "date": "2025-12-10",
+    "tags": ["KI", "Philosophie", "eigene Meinung"],
+    "image": "https://picsum.photos/seed/post11/800/520"
+  },
+  {
+    "title": "Wie ich Fremdsprachen lerne",
+    "link": "posts/post12.html",
+    "excerpt": "",
+    "date": "2025-12-10",
+    "tags": ["Mathematik","Lineare Algebra", "Erfahrungsbericht"],
+    "image": "https://picsum.photos/seed/post12/800/520"
+  },
+  {
+    "title": "Warum das Internet kein guter Ort zum (konstruktiven) Diskutieren ist",
+    "link": "posts/post13.html",
+    "excerpt": "Wieso ich soziale Medien zuweilen meide, und das Internet Gespräche unmöglich macht",
+    "date": "2025-12-10",
+    "tags": ["Diskurs", "Gesellschaft", "Internet", "eigene Meinung"],
+    "image": "https://picsum.photos/seed/post13/800/520"
+  },
+  {
+    "title": "Die Entzauberung der Welt: warum ich wirklich Angst davor habe, wenn Menschen Wissen höher als Sinn und Harmonie schätzen",
+    "link": "posts/post14.html",
+    "excerpt": "Was passiert, wenn sämtliche anthropozentrischen Biases verschwinden? Sollte die Wissenschaft wirklich auf alles eine Antwort geben, oder ist Nichtwissen manchmal besser.",
+    "date": "2025-12-10",
+    "tags": ["Philosophie", "Wissenschaft", "eigene Meinung"],
+    "image": "https://picsum.photos/seed/post14/800/520"
+  },
+  {
+    "title": "Wieso Selbstoptimierung und -verbesserung nichts für mich ist",
+    "link": "posts/post15.html",
+    "excerpt": "ein sehr persönliches Thema: wieso Selbstoptimierung und -verbesserung nicht in mein Selbstkonzept passen",
+    "date": "2025-12-10",
+    "tags": ["Identität", "Selbstfindung", "eigene Meinung", "Erfahrungsbericht"],
+    "image": "https://picsum.photos/seed/post15/800/520"
+  },
+  {
+    "title": "Antinatalismus zu Ende gedacht: warum Leid besser als Nichtexistenz ist",
+    "link": "posts/post16.html",
+    "excerpt": "Ein extrem emotionales und privates Thema, zu dem ich meine Meinung nicht ändern werde. Hier möchte ich nur Fragen stellen. Vielleicht sollte ich das auch rausnehmen.",
+    "date": "2025-12-10",
+    "tags": ["Philosophie", "Triggerwarnung", "eigene Meinung"],
+    "image": "https://picsum.photos/seed/post16/800/520"
+  },
+  {
+    "title": "die Subjektivierung der Geschlechter",
+    "link": "posts/post17.html",
+    "excerpt": "Viele verschiedene Aspekte werden hier angeschnitten: Wie ich persönlich zu Labels stehe, wie meine Sicht auf die Diskussion rund um Geschlechter ist, und wieso ich dann doch lieber von dem Thema distanziere",
+    "date": "2025-12-10",
+    "tags": ["Gesellschaft", "Identität", "Philosophie", "eigene Meinung", "Erfahrungsbericht"],
+    "image": "https://picsum.photos/seed/post17/800/520"
+  },
+  {
+    "title": "Darf man heutzutage überhaupt noch was sagen: Zwischen Cancel Culture und Meinungsfreiheit",
+    "link": "posts/post18.html",
+    "excerpt": "Meinungsfreiheit heißt nicht Widerspruchsfreiheit, und wieso Cancel Culture Zensur begünstigt.",
+    "date": "2025-12-10",
+    "tags": ["Gesellschaft", "Diskurs", "eigene Meinung"],
+    "image": "https://picsum.photos/seed/post18/800/520"
+  },
+  {
+    "title": "Warum ich kein \"Veganer\" bin",
+    "link": "posts/post19.html",
+    "excerpt": "Wieso ich mit vielen Prinzipien des Veganismus d'accord gehe und trotzdem tierische Produkte esse",
+    "date": "2025-12-10",
+    "tags": ["Tierethik", "Philosophie", "eigene Meinung"],
+    "image": "https://picsum.photos/seed/post19/800/520"
+  },
+  {
+    "title": "Wie Sprache meine Beziehungen beeinflusst",
+    "link": "posts/post20.html",
+    "excerpt": "Wie Sprache selbst beeinflusst, wie ich meine Beziehungen lebe, ob Deutsch oder Englisch",
+    "date": "2025-12-10",
+    "tags": ["Sprache", "Erfahrungsbericht"],
+    "image": "https://picsum.photos/seed/post20/800/520"
+  },
+  {
+    "title": "die \"Sapir-Whorf-Hypothese\" und was sie offenbart",
+    "link": "posts/post21.html",
+    "excerpt": "Wie Sprache unser Denken beeinflusst, wie sie Denken ermöglicht, aber auch begrenzt. Ein kurzer Exkurs zu Sprache und Ludwig Wittgenstein",
+    "date": "2025-12-10",
+    "tags": ["Funfacts", "Sprache", "Philosophie"],
+    "image": "https://picsum.photos/seed/post21/800/520"
+  },
+  {
+    "title": "Warum Wissenschaft für mich normfrei ist",
+    "link": "posts/post22.html",
+    "excerpt": "Wissenschaft sagt uns nicht, was wir tun sollen. Sind moralische/normative Aussagen falsifizierbar?",
+    "date": "2025-12-10",
+    "tags": ["Wissenschaft", "Philosophie", "eigene Meinung"],
+    "image": "https://picsum.photos/seed/post22/800/520"
+  },
+  {
+    "title": "Missverständnisse beim Klimawandel und globaler Erwärmung",
+    "link": "posts/post23.html",
+    "excerpt": "Klarstellung der aktuellen Erkenntnisse zum Klimawandel, mit ein paar persönlichen Ausschweifungen",
+    "date": "2025-12-10",
+    "tags": ["Wissenschaft", "Funfacts", "eigene Meinung"],
+    "image": "https://picsum.photos/seed/post23/800/520"
+  },
+  {
+    "title": "Wieso Erziehung nicht reine Privatsache bleiben darf",
+    "link": "posts/post24.html",
+    "excerpt": "Haben Kinder ein Recht auf Liebe? Sollten Kinder nicht in einer sicheren Umgebung aufwachsen dürfen? Außerdem: Wie gehen wir als Gesellschaft damit um, wenn Kinder schon früh Zugang zum Internet haben? Und wer trägt die eigentliche Verantwortung bei der Erziehung: Eltern oder die Schule? Wie können wir Kindern zu selbstbewussten, mündigen Erwachsenen heranziehen?",
+    "date": "2025-12-10",
+    "tags": ["Gesellschaft", "eigene Meinung"],
+    "image": "https://picsum.photos/seed/post24/800/520"
+  },
+  {
+    "title": "Asoziale Medien: Wieso ich soziale Medien meide",
+    "link": "posts/post25.html",
+    "excerpt": "Wieso ich immer selektiver soziale Medien verwende und immer weniger Mehrwert in ihnen sehe",
+    "date": "2025-12-10",
+    "tags": ["Internet", "eigene Meinung", "Erfahrungsbericht"],
+    "image": "https://picsum.photos/seed/post25/800/520"
+  },
+  {
+    "title": "Wieso Zeit nicht genutzt werden muss: Ein Plädoyer gegen das industrialisierte Bild von Arbeit",
+    "link": "posts/post26.html",
+    "excerpt": "Gebt einen Scheiß auf Leute, die euch vorwerfen, dass ihr eure Zeit verschwendet. Ein recht umfassender Artikel zu Produktivität, Zielen im Leben, der Sinn von Freizeit, Arbeit, und viele Ausschweifungen zu vielen Themen",
+    "date": "2025-12-10",
+    "tags": ["Arbeit", "Identität", "Philosophie", "eigene Meinung", "Erfahrungsbericht"],
+    "image": "https://picsum.photos/seed/post26/800/520"
+  },
+  {
+    "title": "Was zeichnet Intelligenz aus? Und ist KI intelligent?",
+    "link": "posts/post27.html",
+    "excerpt": "Selbst wir Informatiker wissen gar nicht so recht, was Intelligenz ausmacht. Wir bauen einfach nur Systeme. In einigen Medien wird der Begriff Intelligenz teilweise stark polarisiert. Schauen wir doch mal, was Intelligenz wirklich ausmacht, und ob wir überhaupt sinnvoll über sie sprechen können.",
+    "date": "2025-12-10",
+    "tags": ["Philosophie", "KI", "Wissenschaft", "Funfacts", "eigene Meinung"],
+    "image": "https://picsum.photos/seed/post27/800/520"
+  },
+  {
+    "title": "Nihilismus, mein alter Freund",
+    "link": "posts/post28.html",
+    "excerpt": "Ein etwas persönlicherer Artikel mit vielen Ausschweifungen, weil ich nicht auf den Punkt kommen kann. Vielleicht lösche ich den hier.",
+    "date": "2025-12-10",
+    "tags": ["Philosophie", "eigene Meinung", "Erfahrungsbericht"],
+    "image": "https://picsum.photos/seed/post28/800/520"
+  },
+  {
+    "title": "Factfulness und warum wir es heute so verdammt gut haben",
+    "link": "posts/post29.html",
+    "excerpt": "Kennst du die hedonistische Tretmühle? Eigentlich lebt der Großteil der Menschen in Industrieländern in einem noch nie dagewesenen Zustand an Wohlstand und Dekadenz. Im Vergleich zu Menschen vor uns leben wir wie die Könige. Trotzdem scheint es nicht so als ob Menschen das erkennen, und schätzen. Manchmal soltlen wir zurückschauen und sehen, wie verdammt gut wir es eigentlich haben. Wir können für so vieles immens dankbar sein.",
+    "date": "2025-12-10",
+    "tags": ["Gesellschaft", "eigene Meinung"],
+    "image": "https://picsum.photos/seed/post29/800/520"
+  },
+  {
+    "title": "Theodizee und ein paar Anregungen von mir zum Agnostizismus",
+    "link": "posts/post30.html",
+    "excerpt": "Hier soll es weniger um eine vollständige Erläuterung zu den Positionen der Gottesfrage gehen, sondern eher darum, wie ich persönlich auf die Gottesfrage blicke, und warum Gott für mich nicht nicht existiert.",
+    "date": "2025-12-10",
+    "tags": ["Religion", "Philosophie", "eigene Meinung"],
+    "image": "https://picsum.photos/seed/post30/800/520"
+  },
+  {
+    "title": "Wie ich Spiritualität lebe",
+    "link": "posts/post31.html",
+    "excerpt": "Man könnte meinen, dass jemand wie ich kaum religiös ist. Das stimmt (so wie ich das sehe) nicht.",
+    "date": "2025-12-10",
+    "tags": ["Religion", "Philosophie", "Wissenschaft", "Identität", "eigene Meinung"],
+    "image": "https://picsum.photos/seed/post31/800/520"
+  },
+  {
+    "title": "Warum Träume so faszinierend sind",
+    "link": "posts/post32.html",
+    "excerpt": "Wusstest du, dass jeder Mensch träumt, auch wenn mansich nicht mehr an sie erinnern kann? Hast du schon mal ne Astralreise gemacht, oder schon mal luzid geträumt?",
+    "date": "2025-12-10",
+    "tags": ["Wissenschaft", "Funfacts"],
+    "image": "https://picsum.photos/seed/post32/800/520"
+  },
+  {
+    "title": "Wie wird Religion in 1.000 Jahren gelebt?",
+    "link": "posts/post33.html",
+    "excerpt": "Wie wird sich Religion in den nächsten Jahrhunderten bzw. Jahrtausenden weiterentwickeln. Ich denke nicht, dass der Mensch Religion als Ganzes verliert, sondern ein jeder eine säkuläre Form von Religion leben könnte. Ich glaube, dass Kirchen sich zu pluralistischen Sinnstätten transformieren könnten.",
+    "date": "2025-12-10",
+    "tags": ["Religion", "eigene Meinung"],
+    "image": "https://picsum.photos/seed/post33/800/520"
+  },
+  {
+    "title": "Warum die Demokratie das kleinste Übel ist",
+    "link": "posts/post34.html",
+    "excerpt": "Ist Demokratie eine wirklich tragfähige Form, um Gesellschaften und Staaten zu strukturieren und zu beherrschen? Trotz der Schwächen der Demokratie, ist sie meiner Meinung nach die beste Staatsform, die wir momentan haben.",
+    "date": "2025-12-10",
+    "tags": ["Politik", "Gesellschaft", "eigene Meinung"],
+    "image": "https://picsum.photos/seed/post34/800/520"
+  },
+  {
+    "title": "Wieso Meritokratie Menschenrechte verletzt",
+    "link": "posts/post35.html",
+    "excerpt": "Was wäre, wenn nicht Kapitel über die Chancen eines Menschen entscheidet, sondern jeder genau das macht, was er oder sie kann? Was wäre, wenn Menschen nach ihren tatsächlichem Können bezahlt werden würden?",
+    "date": "2025-12-10",
+    "tags": ["Politik", "Gesellschaft", "eigene Meinung"],
+    "image": "https://picsum.photos/seed/post35/800/520"
+  },
+  {
+    "title": "Zwischen Szientismmus und Subjektivismus: kritischer Rationalismus gepaart mit Offenheit zum Leben",
+    "link": "posts/post36.html",
+    "excerpt": "Was ist letztlich wahr? Wie viel Bedeutung ordnen wir intersubjektiven und subjektivem Wissen zu? Und wieso es gefährlich sein kann, wenn man entweder nur der Wissenschaft oder nur sich selbst traut.",
+    "date": "2025-12-10",
+    "tags": ["Philosophie", "Wissenschaft", "eigene Meinung"],
+    "image": "https://picsum.photos/seed/post36/800/520"
+  },
+  {
+    "title": "Sollte der Bildungsföderalismus abgeschafft werden?",
+    "link": "posts/post37.html",
+    "excerpt": "Ursprünglich wurde nach dem 2. Weltkrieg zur Verhinderung des Missbrauchs des Bildungssystem dieses dezentralisiert. Dies sollte u.a. verhindern, dass kontrollierende Instanzen wie die Gestapo oder die StaSi dsa Bildungssystem unterwandern. Außerdem sollte die Verbreitung von Propaganda erschwert werden. Aber was bringt uns der Föderalismus heute? Ist es nicht Zeit, unser nationales Bildungssystem fundamental zu überdenken?",
+    "date": "2025-12-10",
+    "tags": ["Politik", "Gesellschaft", "Bildung", "eigene Meinung"],
+    "image": "https://picsum.photos/seed/post37/800/520"
+  },
+  {
+    "title": "der kategorische Imperativ und wie er kläglich versagt",
+    "link": "posts/post38.html",
+    "excerpt": "Einst dachte ich, dass der kategorische Imperativ ein solides Konzept ist. Aber wenn man sich alltägliche Situationen anschaut, merkt man, dass die Realität doch vielschichtiger ist, und es Dinge gibt, die ich für angemessen halte, andere aber nicht.",
+    "date": "2025-12-10",
+    "tags": ["Philosophie", "eigene Meinung"],
+    "image": "https://picsum.photos/seed/post38/800/520"
+  },
+  {
+    "title": "Wieso der freie Wille eine reine Illusion ist",
+    "link": "posts/post39.html",
+    "excerpt": "Okay, ja, ich weiß. Großes Thema, und für einige ist das vielleicht nichts Neues. Um den Artikel zusammenzufassen: Es ist reine Definitionssache.",
+    "date": "2025-12-10",
+    "tags": ["Philosophie", "eigene Meinung"],
+    "image": "https://picsum.photos/seed/post39/800/520"
+  },
+  {
+    "title": "Was wäre, wenn es einen 25-Stunden-Tag gäbe: Wie Menschen in der fernen Zukunft leben könnten",
+    "link": "posts/post40.html",
+    "excerpt": "Wenn der Mond bald weit weg genug von der Erde ist, erleben Menschen in der Zukunft dann einen 25-Stunden-Tag? Und wie würde der zeitliche Rhythmus von Wesen auf anderen Planeten aussehen?",
+    "date": "2025-12-10",
+    "tags": ["Funfacts", "Astronomie", "Gesellschaft"],
+    "image": "https://picsum.photos/seed/post40/800/520"
+  },
+  {
+    "title": "Warum Leiden notwendig ist, um jemand zu sein",
+    "link": "posts/post41.html",
+    "excerpt": "Provokativer Titel? Ja, kann sein. Was wäre eine Welt ohne Leiden? Was wäre, wenn es keine Herausforderungen mehr gäbe, keine emotionalen Geschichten zum Erzählen und Durchleben? Würdest du dich an die Glücksmaschine anschließen, die es dir erlaubt, auf ewig glücklich zu sein? Vielleicht ist das Streben nach Glück wichtiger als das Glück selbst.",
+    "date": "2025-12-10",
+    "tags": ["Philosophie", "Identität", "eigene Meinung"],
+    "image": "https://picsum.photos/seed/post41/800/520"
+  },
+  {
+    "title": "Es lohnt sich, zu wissen, wie die eigene Wahrnehmung funktioniert",
+    "link": "posts/post42.html",
+    "excerpt": "Sehen, Hören, Schmecken, Riechen, Tasten, usw.: Ein paar interessante Infos dazu, wie die menschliche Wahrnehmung funktioniert, und wieso es unmöglich ist, zu wissen, wie jemand anderes die Welt wahrnimmt",
+    "date": "2025-12-10",
+    "tags": ["Biologie", "Psychologie", "Wissenschaft", "Philosophie", "Funfacts"],
+    "image": "https://picsum.photos/seed/post42/800/520"
+  },
+  {
+    "title": "Ist das Kunst oder kann das weg? Wieso generative KI nur ein Werkzeug von vielen ist, und Kunst unterschiedlich gelebt werden kann",
+    "link": "posts/post43.html",
+    "excerpt": "Generative KI verändert unser Kunstverständnis. Kann man mit generativer KI Kunst erzeugen? Und was zeichnet Kunst aus?: der Prozess, das Ergebnis, dsa Gefühl im Rezipienten, die Idee, die Intentionalität?",
+    "date": "2025-12-10",
+    "tags": ["KI", "Gesellschaft", "eigene Meinung"],
+    "image": "https://picsum.photos/seed/post43/800/520"
+  },
+  {
+    "title": "Hass ist keine Meinung",
+    "link": "posts/post44.html",
+    "excerpt": "Wie weit darf Meinungsfreiheit gehen? Und wo beginnt Hass? Sorgen soziale Medien dafür, dass Hass, Hetze und Propaganda sich stärker denn je verbreiten?",
+    "date": "2025-12-10",
+    "tags": ["Gesellschaft", "Diskurs", "Internet", "eigene Meinung"],
+    "image": "https://picsum.photos/seed/post44/800/520"
+  },
+  {
+    "title": "weitere Blogidden",
+    "link": "posts/post_ideas.html",
+    "excerpt": "",
+    "date": "1999-12-31",
+    "tags": [],
+    "image": "https://picsum.photos/seed/post45/800/520"
+  }
+]

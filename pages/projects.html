@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Projekte — Sammlung von Arbeiten, Kurzbeschreibungen und Links zu Quellcode und Live-Demos." />
+  <title>Projekte — Lasel373</title>
+  <link rel="stylesheet" href="../css/general_style.css" />
+</head>
+<body>
+  <header>
+    <nav>
+      <div class="logo">Willkommen!</div>
+      <div>
+        <a href="about.html">Über mich</a>
+        <a href="projects.html">Projekte</a>
+        <a href="blog.html">Blog</a>
+        <a href="contact.html">Kontakt</a>
+        <a href="playground.html">Spielwiese</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero fade-in">
+      <div>
+        <h1>Projekte</h1>
+        <p>Eine Auswahl an Arbeiten — kurze Beschreibungen, Technologien und Links zu Demo bzw. Quellcode.</p>
+      </div>
+    </section>
+
+    <section class="section" id="projects-overview">
+      <div class="container">
+        <div class="projects-controls">
+          <label for="search-projects" class="visually-hidden">Projekte suchen</label>
+          <input id="search-projects" type="search" placeholder="Suche Projekte (Titel, Technologie)" aria-label="Projekte suchen" />
+
+          <div class="filters" role="toolbar" aria-label="Filter nach Tags">
+            <button class="filter-btn active" data-filter="*">Alle</button>
+            <button class="filter-btn" data-filter="frontend">Frontend</button>
+            <button class="filter-btn" data-filter="backend">Backend</button>
+            <button class="filter-btn" data-filter="tooling">Tooling</button>
+            <button class="filter-btn" data-filter="experiment">Experiment</button>
+          </div>
+        </div>
+
+        <ul class="projects-grid" id="projects-grid">
+          <!-- Jedes Projekt besitzt data-tags für Filter und eine kurze Meta-Angabe -->
+
+          <li class="project-card" data-tags="frontend,experiment" tabindex="0">
+            <figure class="project-media">
+              <img src="../assets/project-screenshot-1.jpg" alt="Screenshot: Interaktives Diagramm" width="560" height="315" />
+              <figcaption>Interaktives Diagramm</figcaption>
+            </figure>
+            <div class="project-body">
+              <h3 class="project-title">Interaktives Diagramm</h3>
+              <p class="project-desc">Kleines Tool zum Erzeugen und Exportieren von Diagrammen mit reinem HTML/CSS/JS.</p>
+              <div class="project-meta">Frontend · 2024</div>
+              <div class="project-actions">
+                <a class="btn-secondary" href="#" rel="noopener" aria-label="Live Demo Interaktives Diagramm">Live</a>
+                <a class="btn-outline" href="#" rel="noopener" aria-label="Quellcode Interaktives Diagramm">Code</a>
+                <button class="btn-link details-btn" aria-haspopup="dialog" aria-controls="project-dialog" data-project-id="p1">Details</button>
+              </div>
+            </div>
+          </li>
+
+          <li class="project-card" data-tags="backend,tooling" tabindex="0">
+            <figure class="project-media">
+              <img src="../assets/project-screenshot-2.jpg" alt="Screenshot: API-Tooling" width="560" height="315" />
+              <figcaption>API-Tooling</figcaption>
+            </figure>
+            <div class="project-body">
+              <h3 class="project-title">CLI API Helper</h3>
+              <p class="project-desc">Kommandozeilen-Werkzeug zum Testen und Mocken von REST-APIs. Node.js, geringe Abhängigkeiten.</p>
+              <div class="project-meta">Backend · 2023</div>
+              <div class="project-actions">
+                <a class="btn-secondary" href="#" rel="noopener">NPM</a>
+                <a class="btn-outline" href="#" rel="noopener">Repo</a>
+                <button class="btn-link details-btn" aria-haspopup="dialog" aria-controls="project-dialog" data-project-id="p2">Details</button>
+              </div>
+            </div>
+          </li>
+
+          <li class="project-card" data-tags="frontend,tooling" tabindex="0">
+            <figure class="project-media">
+              <img src="../assets/project-screenshot-3.jpg" alt="Screenshot: Styleguide" width="560" height="315" />
+              <figcaption>Design-System</figcaption>
+            </figure>
+            <div class="project-body">
+              <h3 class="project-title">Mini Design‑System</h3>
+              <p class="project-desc">Wiederverwendbare Komponenten, Tokens und ein kleines CSS‑Toolkit für Projekte.</p>
+              <div class="project-meta">Frontend · 2022</div>
+              <div class="project-actions">
+                <a class="btn-secondary" href="#" rel="noopener">Dokumentation</a>
+                <a class="btn-outline" href="#" rel="noopener">Repo</a>
+                <button class="btn-link details-btn" aria-haspopup="dialog" aria-controls="project-dialog" data-project-id="p3">Details</button>
+              </div>
+            </div>
+          </li>
+
+          <!-- Platz für weitere Karten -->
+        </ul>
+      </div>
+    </section>
+
+    <!-- Zugänglicher Dialog für Projekt-Details (wird dynamisch befüllt) -->
+    <dialog id="project-dialog" class="project-dialog" aria-labelledby="dialog-title">
+      <div class="dialog-content">
+        <button class="dialog-close" aria-label="Dialog schließen">✕</button>
+        <h3 id="dialog-title">Projekt‑Titel</h3>
+        <p id="dialog-description">Ausführliche Beschreibung des Projekts, technische Entscheidungen, Herausforderung und Learnings.</p>
+        <ul id="dialog-techlist" class="dialog-techlist"></ul>
+        <div class="dialog-actions">
+          <a id="dialog-live" class="btn-secondary" href="#" rel="noopener">Live</a>
+          <a id="dialog-repo" class="btn-outline" href="#" rel="noopener">Repo</a>
+        </div>
+      </div>
+    </dialog>
+
+    <section class="section cta">
+      <h2>Interessiert an Zusammenarbeit?</h2>
+      <p>Wenn ein Projekt spannend klingt: gerne melden — am besten über das Kontaktformular.</p>
+      <a href="contact.html" class="btn-primary">Kontakt</a>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div class="footer-col about">
+        <div class="logo">MySite</div>
+        <p>Kurzinfo und Social Links.</p>
+      </div>
+      <div class="footer-col links">
+        <h4>Schnellzugriff</h4>
+        <ul>
+          <li><a href="about.html">Über mich</a></li>
+          <li><a href="projects.html">Projekte</a></li>
+          <li><a href="contact.html">Kontakt</a></li>
+        </ul>
+      </div>
+      <div class="footer-col newsletter">
+        <h4>Newsletter</h4>
+        <p>Kurzinfo zu neuen Artikeln.</p>
+        <form class="newsletter-form" onsubmit="return false;">
+          <input type="email" placeholder="E-Mail-Adresse" aria-label="E-Mail" />
+          <button class="btn-primary" type="submit">Abonnieren</button>
+        </form>
+      </div>
+    </div>
+    <div class="container footer-legal">
+      <div>© 2025 Lasel373 — Alle Rechte vorbehalten.</div>
+      <nav><a href="#">Impressum</a> · <a href="#">Datenschutz</a></nav>
+    </div>
+    <button class="back-to-top" aria-label="Nach oben">↑</button>
+  </footer>
+
+  <!-- Kleines Script für Filter, Suche und Dialog‑Öffnung. Kann in ../js/projects.js ausgelagert werden. -->
+  <script>
+    (function () {
+      const grid = document.getElementById('projects-grid');
+      const items = Array.from(grid.querySelectorAll('.project-card'));
+      const filters = Array.from(document.querySelectorAll('.filter-btn'));
+      const search = document.getElementById('search-projects');
+      const dialog = document.getElementById('project-dialog');
+      const detailsBtns = Array.from(document.querySelectorAll('.details-btn'));
+
+      // Einfaches Tag‑Filter
+      filters.forEach(btn => btn.addEventListener('click', () => {
+        filters.forEach(b => b.classList.remove('active'));
+        btn.classList.add('active');
+        const tag = btn.dataset.filter;
+        items.forEach(it => {
+          const tags = it.dataset.tags.split(',');
+          if (tag === '*' || tags.includes(tag)) {
+            it.hidden = false;
+          } else {
+            it.hidden = true;
+          }
+        });
+      }));
+
+      // Suche (Titel, Beschreibung, Technologien)
+      search.addEventListener('input', e => {
+        const q = e.target.value.trim().toLowerCase();
+        items.forEach(it => {
+          const text = (it.textContent || '').toLowerCase();
+          it.hidden = q && !text.includes(q);
+        });
+      });
+
+      // Dialog öffnen (statisch befüllt für Demo)
+      detailsBtns.forEach(btn => btn.addEventListener('click', (ev) => {
+        const id = btn.dataset.projectId;
+        const title = btn.closest('.project-card').querySelector('.project-title').textContent;
+        const desc = btn.closest('.project-card').querySelector('.project-desc').textContent;
+        const meta = btn.closest('.project-card').querySelector('.project-meta').textContent;
+        dialog.querySelector('#dialog-title').textContent = title + ' — ' + meta;
+        dialog.querySelector('#dialog-description').textContent = desc + '\n\nWeitere Details und Screenshots können hier ergänzt werden.';
+        dialog.showModal();
+        dialog.querySelector('.dialog-close').focus();
+      }));
+
+      // Dialog schließen
+      dialog.querySelector('.dialog-close').addEventListener('click', () => dialog.close());
+
+      // Tastatur: ESC schließt Dialog
+      dialog.addEventListener('keydown', (e) => {
+        if (e.key === 'Escape') dialog.close();
+      });
+
+      // Fokusring für Projektkarten
+      items.forEach(it => it.addEventListener('keydown', (e) => {
+        if (e.key === 'Enter') {
+          it.querySelector('.details-btn').click();
+        }
+      }));
+    })();
+  </script>
+</body>
+</html>

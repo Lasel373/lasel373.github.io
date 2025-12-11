@@ -1,58 +1,63 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="de">
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Total coole Webseite</title>
-    <link rel="stylesheet" href="css/general_style.css" />
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Blog</title>
+  <link rel="stylesheet" href="../css/blog_style.css" />
+  <script src="../js/blog_script.js" defer></script>
 </head>
-<body>
-    <header>
-        <nav>
-            <div class="logo">Willkommen!</div>
-            <div>
-                <a href="pages/about.html">Über mich</a>
-                <a href="pages/projects.html">Projekte</a>
-                <a href="pages/blog.html">Blog</a>
-                <a href="pages/contact.html">Kontakt</a>
-                <a href="pages/playground.html">Spielwiese</a>
-            </div>
-        </nav>
-    </header>
 
-    <section class="hero fade-in">
-        <div>
-            <h1>Welcome to Your Website</h1>
-            <p>A modern, clean, and minimal layout built for clarity and simplicity.</p>
-            <a href="pages/about" class="btn-primary">Learn More</a>
+<body class="site-body">
+  <header class="site-header container">
+    <nav>
+      <div class="logo">Willkommen!</div>
+      <div class="small">
+        <a href="about.html">Über mich</a>
+        <a href="projects.html">Projekte</a>
+        <a href="blog.html">Blog</a>
+        <a href="contact.html">Kontakt</a>
+        <a href="playground.html">Spielwiese</a>
+      </div>
+    </nav>
+  </header>
+
+  <main class="section container fade-in">
+    <section aria-labelledby="blog-head">
+      <h1 id="blog-head">Blog</h1>
+      <p class="small">Beiträge als Kacheln — mit Suche, Filtern und Sortierung.</p>
+
+      <div class="controls">
+        <div class="controls-left">
+          <div class="search" role="search" aria-label="Blog suchen">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M21 21l-4.35-4.35" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/><circle cx="11" cy="11" r="6" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            <input id="search" placeholder="Suche Titel, Text oder Tags..." aria-label="Suche" />
+          </div>
+
+          <div id="tag-chips" class="filters" aria-label="Filter nach Tags"></div>
         </div>
+
+        <div class="controls-right">
+          <label class="small" for="sort">Sortieren:</label>
+          <select id="sort" aria-label="Sortieren">
+            <option value="date-desc">Neuste zuerst</option>
+            <option value="date-asc">Älteste zuerst</option>
+            <option value="title-asc">Titel A–Z</option>
+            <option value="title-desc">Titel Z–A</option>
+          </select>
+
+          <div class="small">Gefunden: <span id="match-count" class="count">0</span></div>
+        </div>
+      </div>
+
+      <div id="posts-grid" class="grid" role="list"></div>
+
+      <div style="margin-top:1rem" class="small">Alle Beiträge sind einzelne HTML-Dateien im Ordner <code>/posts/</code>. Metadaten werden clientseitig geladen — das erlaubt direkte Suche und Filter ohne Serveränderungen.</div>
     </section>
+  </main>
 
-    <section id="about" class="section fade-in">
-        <h2>About</h2>
-        <p>
-            This template provides a lightweight foundation for any personal, project, or portfolio site.
-            You can expand it with sections, animations, galleries, or anything else you want.
-        </p>
-    </section>
-
-    <section id="projects" class="section fade-in">
-        <h2>Projects</h2>
-        <p>
-            Add cards, grids, or links to your work here.
-        </p>
-    </section>
-
-    <section id="contact" class="section fade-in">
-        <h2>Contact</h2>
-        <p>
-            Provide your email, social links, or a contact form here.
-        </p>
-    </section>
-
-
-    <footer class="site-footer">
-        <div class="container footer-grid">
+  <footer class="site-footer">
+        <div class="footer-grid">
             <div class="footer-col about">
                 <div class="logo">MySite</div>
                 <p>bla bla bla</p>
@@ -73,10 +78,10 @@
             <div class="footer-col links">
                 <h4>Quick links</h4>
                 <ul>
-                    <li><a href="pages/about.html">Über mich</a></li>
-                    <li><a href="pages/projects.html">Projekte</a></li>
-                    <li><a href="pages/contact.html">Kontakt</a></li>
-                    <li><a href="pages/blog.html">Blog</a></li>
+                    <li><a href="../index.html#about">Über mich</a></li>
+                    <li><a href="../index.html#projects">Projekte</a></li>
+                    <li><a href="../index.html#contact">Kontakt</a></li>
+                    <li><a href="../blog.html">Blog</a></li>
                 </ul>
             </div>
 
@@ -102,7 +107,7 @@
         </div>
 
 
-        <div class="container footer-legal">
+        <div class="footer-legal">
             <div>© 2025 Lasel373 — Alle Rechte sind enthalten, oder geklaut.</div>
             <nav><a href="#">Impressum</a> · <a href="#">Datenschutz</a> · <a href="#">Nutzungsbedingungen</a></nav>
         </div>
@@ -111,6 +116,5 @@
         <button class="back-to-top" aria-label="Nach oben">↑</button>
     </footer>
 
-    <script src="js/script.js"></script>
 </body>
 </html>

@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Kontakt — Pseudonym, GitHub-Links und E-Mail-Kontaktformular." />
+  <title>Kontakt</title>
+  <link rel="stylesheet" href="../css/general_style.css" />
+</head>
+<body>
+  <header>
+    <nav>
+      <div class="logo">Willkommen!</div>
+      <div>
+        <a href="about.html">Über mich</a>
+        <a href="projects.html">Projekte</a>
+        <a href="blog.html">Blog</a>
+        <a href="contact.html">Kontakt</a>
+        <a href="playground.html">Spielwiese</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero fade-in">
+      <div>
+        <h1>Kontakt</h1>
+        <p>bla bla bla</p>
+      </div>
+    </section>
+
+    <section class="section fade-in" id="contact-info">
+      <h2>Über mich</h2>
+      <div class="contact-profile">
+        <figure class="avatar">
+          <img src="../assets/avatar-placeholder.jpg" alt="Avatar Pseudonym" width="200" height="200" />
+          <figcaption>Lasel373</figcaption>
+        </figure>
+        <p>Ich veröffentliche Projekte unter dem Pseudonym Lasel373. Meine Arbeiten umfassen Frontend, Backend, kleine Tools und experimentelle Projekte.</p>
+        <div class="social-icons">
+          <a href="#" title="GitHub" aria-label="GitHub">
+            <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12 .5C5.7.5.9 5.3.9 11.6c0 4.7 3 8.6 7.2 10-.1-.8-.2-2.1.1-3 .2-.7 1.2-4.4 1.2-4.4s-.4-.9-.4-2.3c0-2.2 1.3-3.8 3-3.8 1.4 0 2.1 1 2.1 2.3 0 1.4-.9 3.5-1.4 5.5-.4 1.6.9 2.9 2.6 2.9 3.1 0 5.3-3 5.3-7.3 0-3.1-2.1-5.3-5-5.3-3.4 0-5.4 2.5-5.4 5.1 0 1 .4 1.8 1 2.4.1.2.1.4.1.6 0 .6-.2 2.2-.3 2.6-.1.4-.4.5-.7.3-1.9-.6-3.1-2.3-3.1-4.1 0-3.4 2.4-6.6 6.7-6.6 3.6 0 6.4 2.6 6.4 6.1 0 3.7-2.1 6.5-5 6.5-1 0-1.8-.9-2.1-1.7 0 0-.5-1.9-.6-2.3-.2-.8-.6-1.7-1-.9-.2.6-.7 1.6-.8 1.9-.2.5-.6.6-1 .4-1.1-.4-1.8-1.9-1.8-3.3 0-2.5 1.8-4.9 5.6-4.9 3.5 0 5.6 2.6 5.6 6 0 3.9-2.2 6.8-5.5 6.8-1.1 0-2-.6-2.3-1.3 0 0-.5-1.1-.7-1.6-.2-.5-.6-1-.9-1.4 2.6-.3 5.3-1.3 5.3-5.7 0-3.9-3-6.2-6.9-6.2z" fill="currentColor"/></svg>
+          </a>
+          <!-- Weitere Social Links hier -->
+        </div>
+      </div>
+    </section>
+
+    <section class="section fade-in" id="contact-form">
+      <h2>Schreibe mir</h2>
+      <form class="contact-form" action="mailto:example@example.com" method="post" enctype="text/plain">
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" placeholder="Dein Name" required />
+
+        <label for="email">E-Mail</label>
+        <input type="email" id="email" name="email" placeholder="Deine E-Mail-Adresse" required />
+
+        <label for="subject">Betreff</label>
+        <input type="text" id="subject" name="subject" placeholder="Betreff" required />
+
+        <label for="message">Nachricht</label>
+        <textarea id="message" name="message" placeholder="Schreibe hier deine Nachricht" rows="6" required></textarea>
+
+        <button type="submit" class="btn-primary">Absenden</button>
+      </form>
+      <p class="privacy-note">Hinweis: E-Mail wird direkt versendet. Kein Spam.</p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div class="footer-col about">
+        <div class="logo">MySite</div>
+        <p>Kurzinfo und Social Links.</p>
+      </div>
+      <div class="footer-col links">
+        <h4>Schnellzugriff</h4>
+        <ul>
+          <li><a href="about.html">Über mich</a></li>
+          <li><a href="projects.html">Projekte</a></li>
+        </ul>
+      </div>
+      <div class="footer-col newsletter">
+        <h4>Newsletter</h4>
+        <p>Kurzinfo zu neuen Artikeln.</p>
+        <form class="newsletter-form" onsubmit="return false;">
+          <input type="email" placeholder="E-Mail-Adresse" aria-label="E-Mail" />
+          <button class="btn-primary" type="submit">Abonnieren</button>
+        </form>
+      </div>
+    </div>
+    <div class="container footer-legal">
+      <div>© 2025 Lasel373 — Alle Rechte vorbehalten.</div>
+      <nav><a href="#">Impressum</a> · <a href="#">Datenschutz</a></nav>
+    </div>
+    <button class="back-to-top" aria-label="Nach oben">↑</button>
+  </footer>
+
+  <script src="../js/script.js"></script>
+</body>
+</html>
