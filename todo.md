@@ -5,4 +5,7 @@
 - Easter Eggs einbauen, z.B. geheime Such- oder Filter-Tokens, versteckte Buttons/Klickbereiche, Tastenkobminationen, URL-Parameter
 
 - Man muss "broken" bei der Suche eingeben, um alle WIP-Posts zu sehen.
-- 
+
+- Man muss "nekorb" eingeben, um einen Post zu bearbeiten!
+
+- Posts bearbeiten, wenn man auf Button klickt und und eine Passphrase eingibt
