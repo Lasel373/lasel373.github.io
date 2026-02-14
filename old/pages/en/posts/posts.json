@@ -1,0 +1,362 @@
+[
+  {
+    "title": "I still have a score to settle with linear algebra.",
+    "link": "posts/post1.html",
+    "excerpt": "Why vector algreba sometimes drives me into insanity",
+    "date": "2025-12-10",
+    "tags": ["math","linear algebra", "funfacts", "WIP"],
+    "image": "https://picsum.photos/seed/post1/800/520"
+  },
+  {
+    "title": "The internet is a huge imposition",
+    "link": "posts/post2.html",
+    "excerpt": "How the modern attention economy is making the internet unusable",
+    "date": "2025-12-10",
+    "tags": ["internet", "society", "own opinion", "WIP"],
+    "image": "https://picsum.photos/seed/post2/800/520"
+  },
+  {
+    "title": "What kinds of working models exist and how one can try to work with them",
+    "link": "posts/post3.html",
+    "excerpt": "A somewhat more personal account of different ways of working and personal experiences",
+    "date": "2025-12-10",
+    "tags": ["work", "lifestyle", "experience report", "WIP"],
+    "image": "https://picsum.photos/seed/post3/800/520"
+  },
+  {
+    "title": "\"Perceptual Realism\" and criticism of contemporary film culture",
+    "link": "posts/post4.html",
+    "excerpt": "Plotholes, Cliffhanger, \"Suspension of disbelief\", too moch smoothness, the difference between analog and digital photography, and logical inconsistencies",
+    "date": "2025-12-10",
+    "tags": ["films", "culture", "own opinion", "WIP"],
+    "image": "https://picsum.photos/seed/post4/800/520"
+  },
+  {
+    "title": "Dost thou not seeth the beauty in the English language?",
+    "link": "posts/post5.html",
+    "excerpt": "English is one of the languages with the largest vocabulary. Unfortunately, we make far too little use of its manifold depth and breadth.",
+    "date": "2025-12-10",
+    "tags": ["language","society", "culture", "own opinion", "WIP"],
+    "image": "https://picsum.photos/seed/post5/800/520"
+  },
+  {
+    "title": "What constitutes good education?",
+    "link": "posts/post6.html",
+    "excerpt": "A few thoughts on teaching in general, both in general education schools and universities, and how I often find good teaching methods lacking.",
+    "date": "2025-12-10",
+    "tags": ["education", "philosophy", "own opinion", "WIP"],
+    "image": "https://picsum.photos/seed/post6/800/520"
+  },
+  {
+    "title": "A little rant about mentoring culture",
+    "link": "posts/post7.html",
+    "excerpt": "A somewhat more personal insight into mentoring and past experiences, and what I believe good mentoring encompasses",
+    "date": "2025-12-10",
+    "tags": ["society", "own opinion", "experience report", "WIP"],
+    "image": "https://picsum.photos/seed/post7/800/520"
+  },
+  {
+    "title": "Dataism und the fully transparent citizen",
+    "link": "posts/post8.html",
+    "excerpt": "How much do we actually reveal about ourselves? I also discuss some of the problems associated with the mentality of data collection.",
+    "date": "2025-12-10",
+    "tags": ["technology", "data privacy", "own opinion", "WIP"],
+    "image": "https://picsum.photos/seed/post8/800/520"
+  },
+  {
+    "title": "Trans-/posthumanism and the pursuit for meaning",
+    "link": "posts/post9.html",
+    "excerpt": "Shouldn't the human be the focus of everyone's work? What do we do with humans who actively participate in designing systems that are intended to replace humans? I'm not just talking about atomic bombs, but also about AI and the sometimes sick ideas of people from Silicon Valley.",
+    "date": "2025-12-10",
+    "tags": ["philosophy", "transhumanism", "own opinion", "WIP"],
+    "image": "https://picsum.photos/seed/post9/800/520"
+  },
+  {
+    "title": "the logarithmic perception of humans",
+    "link": "posts/post10.html",
+    "excerpt": "Did you know that human perception often follows logarithmic rather than linear scales?",
+    "date": "2025-12-10",
+    "tags": ["psychology", "perception", "funfacts", "WIP"],
+    "image": "https://picsum.photos/seed/post10/800/520"
+  },
+  {
+    "title": "the dangers and opportunities of AI, especially generative AI",
+    "link": "posts/post11.html",
+    "excerpt": "From a computer scientist's perspective: My personal view on AI, especially generative AI, including LLMs, image generators, etc. What benefits does generative AI really bring us?",
+    "date": "2025-12-10",
+    "tags": ["AI", "philosphy", "own opinion", "WIP"],
+    "image": "https://picsum.photos/seed/post11/800/520"
+  },
+  {
+    "title": "How I learn foreign languages",
+    "link": "posts/post12.html",
+    "excerpt": "",
+    "date": "2025-12-10",
+    "tags": ["language", "culture", "experience report", "WIP"],
+    "image": "https://picsum.photos/seed/post12/800/520"
+  },
+  {
+    "title": "Why the internet is not a suitable place for (constructive) discussions",
+    "link": "posts/post13.html",
+    "excerpt": "Why I rather avoid social media, and how the internet makes conversation impossible",
+    "date": "2025-12-10",
+    "tags": ["discussion", "society", "internet", "own opinion", "WIP"],
+    "image": "https://picsum.photos/seed/post13/800/520"
+  },
+  {
+    "title": "The disenchantment of the world: why I am genuinely afraid when people value knowledge more highly than meaning and harmony",
+    "link": "posts/post14.html",
+    "excerpt": "What happens when all anthropocentric biases disappear? Should science really provide answers to everything, or is ignorance sometimes a blessing, rather than a curse?",
+    "date": "2025-12-10",
+    "tags": ["philosophy", "science", "own opinion", "WIP"],
+    "image": "https://picsum.photos/seed/post14/800/520"
+  },
+  {
+    "title": "Why self-optimization and self-improvement are not my cup of tea",
+    "link": "posts/post15.html",
+    "excerpt": "A very personal topic: why self-optimization and self-improvement do not fit into my self-concept",
+    "date": "2025-12-10",
+    "tags": ["identity", "self-discovery", "own opinion", "experience report", "WIP"],
+    "image": "https://picsum.photos/seed/post15/800/520"
+  },
+  {
+    "title": "Radical consequences of antinatalism: why suffering is better than non-existence",
+    "link": "posts/post16.html",
+    "excerpt": "An extremely emotional and private topic on which I will not change my opinion. I just want to ask questions here. Maybe I should take that out too.",
+    "date": "2025-12-10",
+    "tags": ["philosophy", "trigger warning", "own opinion", "WIP"],
+    "image": "https://picsum.photos/seed/post16/800/520"
+  },
+  {
+    "title": "How many genders are there?",
+    "link": "posts/post17.html",
+    "excerpt": "Many different aspects are touched upon here: how I personally feel about labels, how I view the discussion surrounding gender, and why I prefer to distance myself from the topic after all.",
+    "date": "2025-12-10",
+    "tags": ["society", "identity", "philosophy", "own opinion", "experience report", "WIP"],
+    "image": "https://picsum.photos/seed/post17/800/520"
+  },
+  {
+    "title": "Is it even allowed to say something nowadays: between cancel culture and freedom of speech",
+    "link": "posts/post18.html",
+    "excerpt": "Freedom of expression does not imply freedom of objection or protest, and why cancel culture promotes censorship",
+    "date": "2025-12-10",
+    "tags": ["society", "discussion", "own opinion", "WIP"],
+    "image": "https://picsum.photos/seed/post18/800/520"
+  },
+  {
+    "title": "Why I am not “vegan”",
+    "link": "posts/post19.html",
+    "excerpt": "Why I agree with many principles of veganism but still eat animal products",
+    "date": "2025-12-10",
+    "tags": ["animal ethics", "philosophy", "own opinion", "WIP"],
+    "image": "https://picsum.photos/seed/post19/800/520"
+  },
+  {
+    "title": "How languages shapes and influences my relationships",
+    "link": "posts/post20.html",
+    "excerpt": "How language itself influences how I live my relationships, whether German or English",
+    "date": "2025-12-10",
+    "tags": ["language", "experience report", "WIP"],
+    "image": "https://picsum.photos/seed/post20/800/520"
+  },
+  {
+    "title": "The \"Sapir-Whorf hypothesis\" and what it reveals",
+    "link": "posts/post21.html",
+    "excerpt": "How language influences our thinking, how it enables thinking, but also limits it. A brief digression on language and Ludwig Wittgenstein",
+    "date": "2025-12-10",
+    "tags": ["funfacts", "language", "philosophy", "WIP"],
+    "image": "https://picsum.photos/seed/post21/800/520"
+  },
+  {
+    "title": "Why science is free from morality but not amoral",
+    "link": "posts/post22.html",
+    "excerpt": "Science does not tell us what to do. Are moral/normative statements falsifiable?",
+    "date": "2025-12-10",
+    "tags": ["science", "philosophy", "own opinion", "WIP"],
+    "image": "https://picsum.photos/seed/post22/800/520"
+  },
+  {
+    "title": "Misconceptions about climate change and global warming",
+    "link": "posts/post23.html",
+    "excerpt": "Clarification of current findings on climate change, with a few personal digressions",
+    "date": "2025-12-10",
+    "tags": ["science", "funfacts", "WIP"],
+    "image": "https://picsum.photos/seed/post23/800/520"
+  },
+  {
+    "title": "Why parenting should not remain a purely private matter",
+    "link": "posts/post24.html",
+    "excerpt": "Do children have a right to love? Shouldn't children be allowed to grow up in a safe environment? Furthermore, how do we as a society deal with children having access to the internet at an early age? And who bears the actual responsibility for their upbringing: parents or schools? How can we raise children to become self-confident, autonomous and responsible adults?",
+    "date": "2025-12-10",
+    "tags": ["society", "own opinion", "WIP"],
+    "image": "https://picsum.photos/seed/post24/800/520"
+  },
+  {
+    "title": "asocial media: why I avoid social media",
+    "link": "posts/post25.html",
+    "excerpt": "Why I am using social media more selectively and seeing less and less value in it",
+    "date": "2025-12-10",
+    "tags": ["internet", "own opinion", "experience report", "WIP"],
+    "image": "https://picsum.photos/seed/post25/800/520"
+  },
+  {
+    "title": "Why time does not have to be used: A plea against the industrialized image of work",
+    "link": "posts/post26.html",
+    "excerpt": "Don't give a shit about people who accuse you of wasting your time. A fairly comprehensive article on productivity, goals in life, the meaning of leisure time, work, and many digressions on many topics.",
+    "date": "2025-12-10",
+    "tags": ["work", "identity", "philosophy", "own opinion", "experience report", "WIP"],
+    "image": "https://picsum.photos/seed/post26/800/520"
+  },
+  {
+    "title": "What denotes intelligence? And is AI intelligent?",
+    "link": "posts/post27.html",
+    "excerpt": "Even we computer scientists don't really know what intelligence actually is. We just build systems. In some media, the term intelligence is sometimes highly polarized. Let's take a look at what intelligence truly encompasses and whether we can even talk about it in a meaningful way.",
+    "date": "2025-12-10",
+    "tags": ["philosophy", "AI", "science", "funfacts", "own opinion", "WIP"],
+    "image": "https://picsum.photos/seed/post27/800/520"
+  },
+  {
+    "title": "nihilism, my old pal",
+    "link": "posts/post28.html",
+    "excerpt": "A somewhat more personal article with many digressions, because I can't get to the point. Maybe I'll delete this one.",
+    "date": "2025-12-10",
+    "tags": ["philosophy", "own opinion", "experience report", "WIP"],
+    "image": "https://picsum.photos/seed/post28/800/520"
+  },
+  {
+    "title": "Factfulness and why we have it so damn good today",
+    "link": "posts/post29.html",
+    "excerpt": "Are you familiar with the hedonistic treadmill? Most people in industrialized countries live in unprecedented prosperity and decadence. Compared to those who came before us, we live like royalty. Yet people don't seem to recognize or appreciate this. Sometimes we need to look back and see how damn good we actually have it. We have so much to be immensely grateful for.",
+    "date": "2025-12-10",
+    "tags": ["society", "own opinion", "WIP"],
+    "image": "https://picsum.photos/seed/post29/800/520"
+  },
+  {
+    "title": "Theodicy and a few thoughts from me on agnosticism",
+    "link": "posts/post30.html",
+    "excerpt": "This is not so much about providing a comprehensive explanation of the various positions on the question of God, but rather about how I personally view the question of God and why, for me, God does exist",
+    "date": "2025-12-10",
+    "tags": ["religion", "philosophy", "own opinion", "WIP"],
+    "image": "https://picsum.photos/seed/post30/800/520"
+  },
+  {
+    "title": "How I live spirituality",
+    "link": "posts/post31.html",
+    "excerpt": "One might believe that someone like me is hardly religious. That is not true (as I see it).",
+    "date": "2025-12-10",
+    "tags": ["religion", "philosophy", "science", "identity", "own opinion", "WIP"],
+    "image": "https://picsum.photos/seed/post31/800/520"
+  },
+  {
+    "title": "Why dreams are so fascinating",
+    "link": "posts/post32.html",
+    "excerpt": "Did you know that everyone dreams, even if they can't remember their dreams? Have you ever had an astral projection or a lucid dream?",
+    "date": "2025-12-10",
+    "tags": ["science", "funfacts", "WIP"],
+    "image": "https://picsum.photos/seed/post32/800/520"
+  },
+  {
+    "title": "How will religion be practiced in 1,000 years?",
+    "link": "posts/post33.html",
+    "excerpt": "ow will religion develop over the next centuries or millennia? I don't think that people will lose religion as a whole, but rather that everyone could live a secular form of religion. I believe that churches could transform themselves into pluralistic sacred places.",
+    "date": "2025-12-10",
+    "tags": ["religion", "own opinion", "WIP"],
+    "image": "https://picsum.photos/seed/post33/800/520"
+  },
+  {
+    "title": "Why democracy is the lesser evil",
+    "link": "posts/post34.html",
+    "excerpt": "Is democracy a truly viable form of structuring and governing societies and states? Despite democracy's weaknesses, I believe it is the best form of government we currently have.",
+    "date": "2025-12-10",
+    "tags": ["politics", "society", "own opinion", "WIP"],
+    "image": "https://picsum.photos/seed/post34/800/520"
+  },
+  {
+    "title": "Why meritocracy violates human rights",
+    "link": "posts/post35.html",
+    "excerpt": "What if it wasn't capital that determined a person's opportunities, but rather that everyone did exactly what they are capable of doing? What if people are paid according to their actual abilities?",
+    "date": "2025-12-10",
+    "tags": ["politics", "society", "own opinion", "WIP"],
+    "image": "https://picsum.photos/seed/post35/800/520"
+  },
+  {
+    "title": "Between scientism and subjectivism: critical rationalism paired with openness to life",
+    "link": "posts/post36.html",
+    "excerpt": "What is ultimately true? How much importance do we attach to intersubjective and subjective knowledge? And why can it be dangerous to trust only science or only yourself?",
+    "date": "2025-12-10",
+    "tags": ["philosophy", "science", "own opinion", "WIP"],
+    "image": "https://picsum.photos/seed/post36/800/520"
+  },
+  {
+    "title": "Should educational federalism be abolished?",
+    "link": "posts/post37.html",
+    "excerpt": "...",
+    "date": "2025-12-10",
+    "tags": ["politics", "society", "education", "own opinion", "WIP"],
+    "image": "https://picsum.photos/seed/post37/800/520"
+  },
+  {
+    "title": "The categorical imperative and how it fails miserably",
+    "link": "posts/post38.html",
+    "excerpt": "I used to think that the categorical imperative was a solid concept. But when you look at everyday situations, you realize that reality is much more complex, and there are things that I consider appropriate, but others do not.",
+    "date": "2025-12-10",
+    "tags": ["philosophy", "own opinion", "WIP"],
+    "image": "https://picsum.photos/seed/post38/800/520"
+  },
+  {
+    "title": "Why free will is just an illusion",
+    "link": "posts/post39.html",
+    "excerpt": "Okay, yes, I know. It's a big topic, and for some, this may not be anything new. To summarize the article: It's purely a matter of definition.",
+    "date": "2025-12-10",
+    "tags": ["philosophy", "own opinion", "WIP"],
+    "image": "https://picsum.photos/seed/post39/800/520"
+  },
+  {
+    "title": "What if there were 25 hours in a day: How people might live in the distant future",
+    "link": "posts/post40.html",
+    "excerpt": "When the moon is far enough away from Earth, will people in the future experience a 25-hour day? And what would the temporal rhythm of beings on other planets look like?",
+    "date": "2025-12-10",
+    "tags": ["funfacts", "astronomy", "society", "WIP"],
+    "image": "https://picsum.photos/seed/post40/800/520"
+  },
+  {
+    "title": "Why suffering is necessary to be someone",
+    "link": "posts/post41.html",
+    "excerpt": "Provocative title? Yes, perhaps. What would a world without suffering be like? What if there were no more challenges, no more emotional stories to tell and experience? Would you connect yourself to the happiness machine that allows you to be happy forever? Perhaps the pursuit of happiness is more important than happiness itself. Maybe you only become someone by experiencing challenge.",
+    "date": "2025-12-10",
+    "tags": ["philosophy", "identity", "own opinion", "WIP"],
+    "image": "https://picsum.photos/seed/post41/800/520"
+  },
+  {
+    "title": "It is worth knowing how your own perception works.",
+    "link": "posts/post42.html",
+    "excerpt": "Seeing, hearing, tasting, smelling, touching, etc.: Some interesting information about how human perception works and why it is impossible to know how someone else perceives the world.",
+    "date": "2025-12-10",
+    "tags": ["biology", "psychology", "science", "philosophy", "funfacts", "WIP"],
+    "image": "https://picsum.photos/seed/post42/800/520"
+  },
+  {
+    "title": "Art or thrash? Why generative AI is just one tool amongst many, and why art can be experienced in different ways",
+    "link": "posts/post43.html",
+    "excerpt": "Generative AI is changing our understanding of art. Can art be created with generative AI? And what defines art: the process, the result, the feeling it evokes in the viewer, the idea, the intention behind it",
+    "date": "2025-12-10",
+    "tags": ["AI", "society", "own opinion", "WIP"],
+    "image": "https://picsum.photos/seed/post43/800/520"
+  },
+  {
+    "title": "Hate is not an opinion",
+    "link": "posts/post44.html",
+    "excerpt": "How far should freedom of expression go? And where does hate begin? Are social media platforms contributing to the spread of hate, incitement, and propaganda more than ever before?",
+    "date": "2025-12-10",
+    "tags": ["society", "discussion", "internet", "own opinion", "WIP"],
+    "image": "https://picsum.photos/seed/post44/800/520"
+  },
+  {
+    "title": "further blog ideas",
+    "link": "posts/post_ideas.html",
+    "excerpt": "",
+    "date": "1999-12-31",
+    "tags": ["WIP"],
+    "image": "https://picsum.photos/seed/post45/800/520"
+  }
+]

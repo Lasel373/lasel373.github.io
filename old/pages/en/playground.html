@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Playground — MySite</title>
+  <meta name="description" content="A sleek professional playground and showcase for HTML/CSS/JS experiments." />
+  <link rel="stylesheet" href="../css/playground_style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav">
+      <a class="logo" href="../index.html">Willkommen!</a>
+      <nav class="links" aria-label="Main navigation">
+        <a href="about.html">Über mich</a>
+        <a href="projects.html">Projekte</a>
+        <a href="blog.html">Blog</a>
+        <a href="contact.html">Kontakt</a>
+        <a href="playground.html">Spielwiese</a>
+      </nav>
+      <button id="menuToggle" class="menu-toggle" aria-expanded="false" aria-label="Open menu">☰</button>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container hero-grid">
+        <div class="hero-content">
+          <h1 class="gradient-text">Playground</h1>
+          <p class="lead">A professional canvas for experiments — add HTML, CSS and JS directly to the stage below. Smooth animations, accessibility-focused markup and responsive design included.</p>
+          <p class="muted">Tip: edit the <code>&lt;section class="stage"&gt;</code> area in this file to add custom snippets. Each snippet can be wrapped in a card.</p>
+        </div>
+        <div class="hero-visual">
+          <div class="card floating" aria-hidden="true">
+            <svg viewBox="0 0 120 120" class="logo-blob"><defs><linearGradient id="g" x1="0" x2="1"><stop offset="0" stop-color="#7c5cff"/><stop offset="1" stop-color="#2dd4bf"/></linearGradient></defs><circle cx="60" cy="60" r="50" fill="url(#g)"/></svg>
+            <div class="card-inside">
+              <h3>Live showcase</h3>
+              <p class="small">Drop HTML snippets inside the `stage` section and style them via the project stylesheet or inline CSS.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <canvas id="bgCanvas" class="bg-canvas" aria-hidden="true"></canvas>
+    </section>
+
+    <section class="container stage-section" id="stage">
+      <h2>Stage — place custom content here</h2>
+
+      <!--
+        Example snippet card. Duplicate and replace the inner HTML with any valid markup.
+        Add scripts at the end of this file and target elements by class or id.
+      -->
+
+      <section class="stage">
+        <article class="snippet card">
+          <div class="snippet-inner">
+            <h3>Animated Card</h3>
+            <p>This card demonstrates a CSS-powered tilt + glow effect. Replace this content with any HTML.</p>
+            <div class="demo-buttons">
+              <button class="btn btn-primary">Try</button>
+              <button class="btn btn-ghost">Info</button>
+            </div>
+          </div>
+        </article>
+
+        <article class="snippet card pulse">
+          <h3>Pulse Animation</h3>
+          <p>Subtle attention-grabbing animation. Use for notifications or featured content.</p>
+        </article>
+
+        <!-- Add more snippet cards here -->
+      </section>
+    </section>
+
+    <section class="container features">
+      <h2>Capabilities</h2>
+      <div class="grid">
+        <div class="feature">
+          <h4>Custom HTML</h4>
+          <p>Insert any markup inside the <code>.stage</code> section. Keep semantics and accessibility in mind.</p>
+        </div>
+        <div class="feature">
+          <h4>Styling</h4>
+          <p>Leverage the global stylesheet or add inline styles for one-off experiments.</p>
+        </div>
+        <div class="feature">
+          <h4>Scripts</h4>
+          <p>Use the included <code>script.js</code> to wire interactivity, animations, or lightweight canvas effects.</p>
+        </div>
+        <div class="feature">
+          <h4>Export</h4>
+          <p>Copy results directly into a new post or export pages from your repo.</p>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-legal">
+      <div>© 2025 Lasel373 — Alle Rechte sind enthalten, oder geklaut.</div>
+      <nav><a href="pages/legal_notice.html">Impressum</a> · <a href="pages/privacy_policy.html">Datenschutz</a> · <a href="pages/terms_of_service.html">Nutzungsbedingungen</a></nav>
+    </div>
+  </footer>
+
+
+  
+  <script src="../js/script_play.js" defer></script>
+</body>
+</html>

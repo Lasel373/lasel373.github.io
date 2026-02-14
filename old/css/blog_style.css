@@ -142,3 +142,32 @@ label.small{color:var(--muted)}
 .card img{height:140px}
 .container{padding:1rem}
 }
+
+.lang-toggle {
+  display: inline-flex;
+  border: 1px solid #888;
+  border-radius: 6px;
+  overflow: hidden;
+  width: 80px;  /* adjust size */
+  height: 32px;
+  font-size: 18px;
+}
+
+.lang-toggle .lang-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+  text-decoration: none;
+  color: #fff;
+  background-color: #555; /* inactive side */
+  transition: background-color 0.2s;
+}
+
+.lang-toggle .lang-btn.active {
+  background-color: #999; /* current language */
+}
+
+.lang-toggle .lang-btn:hover {
+  background-color: #777; /* hover effect */
+}

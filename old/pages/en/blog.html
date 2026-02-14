@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Blog</title>
+  <link rel="stylesheet" href="../../css/blog_style.css" />
+  <script>
+    const LANG = 'en';
+    const LOCALE = 'en-US';
+    const NOT_FOUND = 'No posts found.';
+    const OPEN_LABEL = 'open post';
+    const NO_IMAGE = 'No image';
+    const ERROR_TEXT = 'Error loading posts:';
+  </script>
+  <script src="../../js/blog_script.js" defer></script>
+</head>
+
+<body class="site-body">
+  <header class="site-header container">
+    <nav>
+      <div class="logo">Welcome!</div>
+      <div class="small">
+        <a href="about.html">About Me</a>
+        <a href="projects.html">Projects</a>
+        <a href="blog.html">Blog</a>
+        <a href="contact.html">Contact</a>
+        <a href="playground.html">Playground</a>
+      </div>
+    </nav>
+  </header>
+
+  <main class="section container fade-in">
+    <section aria-labelledby="blog-head">
+      <h1 id="blog-head">Blog</h1>
+      <p class="small">Posts as tiles — with search, filter, and sort functions</p>
+
+      <div class="controls">
+        <div class="controls-left">
+          <div class="search" role="search" aria-label="Search blog">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M21 21l-4.35-4.35" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/><circle cx="11" cy="11" r="6" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            <input id="search" placeholder="Search for titles, text, or tags..." aria-label="Search" />
+          </div>
+
+          <div id="tag-chips" class="filters" aria-label="Filter by tags"></div>
+        </div>
+
+        <div class="controls-right">
+          <label class="small" for="sort">Sort:</label>
+          <select id="sort" aria-label="Sort">
+            <option value="date-desc">Newest first</option>
+            <option value="date-asc">Oldest first</option>
+            <option value="title-asc">Title A–Z</option>
+            <option value="title-desc">Title Z–A</option>
+          </select>
+
+          <div class="small">Found: <span id="match-count" class="count">0</span></div>
+        </div>
+      </div>
+
+      <div id="posts-grid" class="grid" role="list"></div>
+
+      <div style="margin-top:1rem" class="small">All posts are individual HTML files in the folder <code>/posts/</code>. Metadata is loaded on the client side, allowing direct searches and filters without server changes.</div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+        <div class="footer-grid">
+            <div class="footer-col about">
+                <div class="logo">MySite</div>
+                <p>bla bla bla</p>
+                <div class="social-icons">
+                    <a aria-label="Twitter" href="#" title="Twitter">
+                        <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M20 7.5c-.6.3-1.3.5-2 .6.7-.4 1.2-1 1.4-1.8-.6.4-1.3.6-2 .8C17 6 16 5.5 15 5.5c-1.7 0-3 1.4-3 3.1 0 .2 0 .5.1.7-2.5-.1-4.7-1.4-6.2-3.3-.3.6-.5 1.2-.5 1.9 0 1.3.6 2.4 1.6 3-.5 0-1-.2-1.5-.4 0 1.8 1.2 3.3 2.8 3.6-.4.1-.8.2-1.2.2-.3 0-.6 0-.9-.1.6 1.9 2.4 3.3 4.4 3.3-1.6 1.2-3.6 1.9-5.8 1.9H6c2 1.3 4.4 2 6.9 2 8.2 0 12.7-6.8 12.7-12.7v-.6c.9-.7 1.6-1.6 2.1-2.6-.8.4-1.6.7-2.4.8z" fill="currentColor"/></svg>
+                    </a>
+                    <a aria-label="GitHub" href="#" title="GitHub">
+                            <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 .5C5.7.5.9 5.3.9 11.6c0 4.7 3 8.6 7.2 10-.1-.8-.2-2.1.1-3c.2-.7 1.2-4.4 1.2-4.4s-.4-.9-.4-2.3c0-2.2 1.3-3.8 3-3.8 1.4 0 2.1 1 2.1 2.3 0 1.4-.9 3.5-1.4 5.5-.4 1.6.9 2.9 2.6 2.9 3.1 0 5.3-3 5.3-7.3 0-3.1-2.1-5.3-5-5.3-3.4 0-5.4 2.5-5.4 5.1 0 1 .4 1.8 1 2.4.1.2.1.4.1.6 0 .6-.2 2.2-.3 2.6-.1.4-.4.5-.7.3-1.9-.6-3.1-2.3-3.1-4.1 0-3.4 2.4-6.6 6.7-6.6 3.6 0 6.4 2.6 6.4 6.1 0 3.7-2.1 6.5-5 6.5-1 0-1.8-.9-2.1-1.7 0 0-.5-1.9-.6-2.3-.2-.8-.6-1.7-1-.9-.2.6-.7 1.6-.8 1.9-.2.5-.6.6-1 .4-1.1-.4-1.8-1.9-1.8-3.3 0-2.5 1.8-4.9 5.6-4.9 3.5 0 5.6 2.6 5.6 6 0 3.9-2.2 6.8-5.5 6.8-1.1 0-2-.6-2.3-1.3 0 0-.5-1.1-.7-1.6-.2-.5-.6-1-.9-1.4 2.6-.3 5.3-1.3 5.3-5.7 0-3.9-3-6.2-6.9-6.2z" fill="currentColor"/></svg>
+                    </a>
+                    <a aria-label="Mastodon" href="#" title="Mastodon">
+                            <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 2C7 2 3 6 3 11.1c0 3.9 2.5 7.1 6 8.1.4.1.6-.2.6-.5v-1.8c-2.4.5-2.9-1.1-2.9-1.1-.4-1-1-1.3-1-1.3-.8-.5.1-.5.1-.5.9.1 1.4 1 1.4 1 .8 1.4 2.2 1 2.9.8.1-.6.3-1 .5-1.2-1.9-.2-3.8-1-3.8-4.6 0-1 .3-1.8.9-2.4-.1-.2-.4-1.3.1-2.7 0 0 .8-.2 2.7 1 .8-.2 1.6-.3 2.4-.3.8 0 1.6.1 2.4.3 1.9-1.2 2.7-1 2.7-1 .5 1.4.2 2.5.1 2.7.6.6.9 1.4.9 2.4 0 3.6-1.9 4.4-3.8 4.6.4.3.7.9.7 1.9v2.8c0 .3.2.6.6.5 3.5-1 6-4.2 6-8.1C21 6 17 2 12 2z" fill="currentColor"/></svg>
+                    </a>
+                </div>
+            </div>
+
+
+            <div class="footer-col links">
+                <h4>Quick links</h4>
+                <ul>
+                    <li><a href="../index.html#about">About Me</a></li>
+                    <li><a href="../index.html#projects">Projects</a></li>
+                    <li><a href="../index.html#contact">Contact</a></li>
+                    <li><a href="../blog.html">Blog</a></li>
+                </ul>
+            </div>
+
+
+            <div class="footer-col recent">
+                <h4>Last Posts</h4>
+                    <ul>
+                    <li><a href="#">Notation &amp; Misconceptions</a></li>
+                    <li><a href="#">Vectors vs. Matrices</a></li>
+                    <li><a href="#">Display formulas neatly</a></li>
+                </ul>
+            </div>
+
+
+            <div class="footer-col newsletter">
+                <h4>Newsletter</h4>
+                <p>Brief notes on new articles. No spam.</p>
+                <form class="newsletter-form" onsubmit="return false;">
+                    <input type="email" placeholder="E-Mail-Adress" aria-label="E-Mail" />
+                    <button class="btn-primary" type="submit">Subscribe</button>
+                </form>
+            </div>
+        </div>
+
+
+        <div class="footer-legal">
+            <div>© 2025 Lasel373 —  All rights reserved, or stolen.</div>
+            <nav><a href="pages/legal_notice.html">Legal Notice</a> · <a href="pages/privacy_policy.html">Privacy Policy</a> · <a href="pages/terms_of_service.html">Terms of Service</a></nav>
+        </div>
+
+
+        <button class="back-to-top" aria-label="Up">↑</button>
+    </footer>
+
+</body>
+</html>

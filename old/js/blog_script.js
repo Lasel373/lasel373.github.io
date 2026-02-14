@@ -3,13 +3,13 @@ let grid, searchInput, sortSelect, matchCount;
 let activeTags = new Set();
 
 // JSON-Datei laden
-fetch('../pages/posts/posts.json')
+fetch("posts/posts.json")
   .then(res => res.json())
   .then(data => {
     postsData = data;   // postsData initialisieren
     setupTagsAndUpdate(); // Tags erstellen und Seite aktualisieren
   })
-  .catch(err => console.error('Fehler beim Laden der Posts:', err));
+  .catch(err => console.error(ERROR_TEXT, err));
 
 function normalize(s){return (s||'').toString().toLowerCase().trim();}
 
@@ -61,7 +61,7 @@ function update(){
 
 function render(list){
   grid.innerHTML = '';
-  if(list.length===0){grid.innerHTML = '<div class="small">Keine Beiträge gefunden.</div>'; matchCount.textContent='0'; return}
+  if(list.length===0){grid.innerHTML = '<div class="small">' + NOT_FOUND + '</div>'; matchCount.textContent='0'; return}
   matchCount.textContent = list.length;
   const frag = document.createDocumentFragment();
   list.forEach(p=>{
@@ -73,11 +73,11 @@ function render(list){
     img.loading='lazy';
     img.alt = p.title + ' — Vorschaubild';
     img.src = p.image || '';
-    img.onerror = ()=>{ img.src = 'data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="800" height="520"><rect width="100%" height="100%" fill="%230b1220"/><text x="50%" y="50%" fill="%239aa4b2" font-size="20" font-family="Arial" text-anchor="middle" dy="6">Kein Bild</text></svg>' }
+    img.onerror = ()=>{ img.src = 'data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="800" height="520"><rect width="100%" height="100%" fill="%230b1220"/><text x="50%" y="50%" fill="%239aa4b2" font-size="20" font-family="Arial" text-anchor="middle" dy="6">' + NO_IMAGE + '</text></svg>' }
 
     const body = document.createElement('div'); body.className='card-body';
     const h3 = document.createElement('h3');
-    const a = document.createElement('a'); a.href = p.link; a.className='title-link'; a.textContent = p.title; a.setAttribute('aria-label', p.title + ', Beitrag öffnen');
+    const a = document.createElement('a'); a.href = p.link; a.className='title-link'; a.textContent = p.title; a.setAttribute('aria-label', p.title + ', ' + OPEN_LABEL);
     h3.appendChild(a);
 
     const meta = document.createElement('div'); meta.className='meta'; meta.textContent = new Date(p.date).toLocaleDateString('de-DE');

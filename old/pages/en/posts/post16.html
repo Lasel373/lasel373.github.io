@@ -1,63 +1,62 @@
-<!doctype html>
-<html lang="de">
+<!DOCTYPE html>
+<html lang="en">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Blog</title>
-  <link rel="stylesheet" href="../css/blog_style.css" />
-  <script src="../js/blog_script.js" defer></script>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ich habe da noch eine Rechnung offen mit der linearen Algebra</title>
+
+    <!-- Google Fonts: Inter (Text) + Merriweather (Überschriften) -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Merriweather:wght@300;400;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="../blog_style.css" />
 </head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">Wilkommen!</div>
+            <button class="nav-toggle" aria-expanded="false" aria-label="Menü">
+                <span></span><span></span><span></span>
+            </button>
+            <div class="nav-links">
+                <a href="../index.html#about">Über mich</a>
+                <a href="../index.html#projects">Projekte</a>
+                <a href="../index.html#contact">Kontakt</a>
+                <a href="../blog.html" class="active">Blog</a>
+            </div>
+        </nav>
+    </header>
 
-<body class="site-body">
-  <header class="site-header container">
-    <nav>
-      <div class="logo">Willkommen!</div>
-      <div class="small">
-        <a href="about.html">Über mich</a>
-        <a href="projects.html">Projekte</a>
-        <a href="blog.html">Blog</a>
-        <a href="contact.html">Kontakt</a>
-        <a href="playground.html">Spielwiese</a>
-      </div>
-    </nav>
-  </header>
+    <main class="section container fade-in">
+        <article class="post">
+            <header class="post-header">
+                <h1>Antinatalismus und warum Leid besser als Nichtexistenz ist</h1>
+            </header>
 
-  <main class="section container fade-in">
-    <section aria-labelledby="blog-head">
-      <h1 id="blog-head">Blog</h1>
-      <p class="small">Beiträge als Kacheln — mit Suche, Filtern und Sortierung.</p>
+            <section class="post-content">
+                <p>
+               sehr emotionales Thema; Sollte eher etwas existieren als das es nciht existiert?
+               Wieso Menschen Kinder haben sollten, und ich es bedauere, wenn Menschen leid fundamental ablehnen
+               Optimismusm, Positivismus
+               Wieso das Universum mMn nicht einsam sein sollte und Menschen überleben sollten
+               Eine sehr emotionale Frage: Sollten Menschen weiterexistieren?
+               Wenn ein einzelner ablehnt, Leben in diese Welt zu setzen, werden es andere trotzdem tun
+               sehr persönliche, private Entscheidung
+                
 
-      <div class="controls">
-        <div class="controls-left">
-          <div class="search" role="search" aria-label="Blog suchen">
-            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M21 21l-4.35-4.35" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/><circle cx="11" cy="11" r="6" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
-            <input id="search" placeholder="Suche Titel, Text oder Tags..." aria-label="Suche" />
-          </div>
+                </p>
+                
+            
+                <p class="post-date">Datum: 10. Dezember 2025</p>
 
-          <div id="tag-chips" class="filters" aria-label="Filter nach Tags"></div>
-        </div>
+                <div class="cta-row">
+                    <a href="../blog.html" class="btn-primary">Zurück zur Übersicht</a>
+                </div>
+            </section>
+        </article>
+    </main>
 
-        <div class="controls-right">
-          <label class="small" for="sort">Sortieren:</label>
-          <select id="sort" aria-label="Sortieren">
-            <option value="date-desc">Neuste zuerst</option>
-            <option value="date-asc">Älteste zuerst</option>
-            <option value="title-asc">Titel A–Z</option>
-            <option value="title-desc">Titel Z–A</option>
-          </select>
-
-          <div class="small">Gefunden: <span id="match-count" class="count">0</span></div>
-        </div>
-      </div>
-
-      <div id="posts-grid" class="grid" role="list"></div>
-
-      <div style="margin-top:1rem" class="small">Alle Beiträge sind einzelne HTML-Dateien im Ordner <code>/posts/</code>. Metadaten werden clientseitig geladen — das erlaubt direkte Suche und Filter ohne Serveränderungen.</div>
-    </section>
-  </main>
-
-  <footer class="site-footer">
-        <div class="footer-grid">
+    <footer class="site-footer">
+        <div class="container footer-grid">
             <div class="footer-col about">
                 <div class="logo">MySite</div>
                 <p>bla bla bla</p>
@@ -116,5 +115,48 @@
         <button class="back-to-top" aria-label="Nach oben">↑</button>
     </footer>
 
+    <script src="../script.js"></script>
+    <script>
+        window.MathJax = {
+            tex: {
+            inlineMath: [['$', '$'], ['\\(', '\\)']],
+            displayMath: [['$$','$$'], ['\\[','\\]']]
+            },
+            chtml: { displayAlign: 'center', scale: 1.12 }  // skaliert Formeln
+        };
+
+        (function(){
+            // Mobile nav toggle
+            const toggle = document.querySelector('.nav-toggle');
+            const links = document.querySelector('.nav-links');
+            if(toggle && links){
+                toggle.addEventListener('click', ()=>{
+                const open = links.classList.toggle('open');
+                toggle.setAttribute('aria-expanded', String(open));
+                });
+            }
+
+
+            // Sticky header shadow on scroll
+            const header = document.querySelector('.site-header');
+            if(header){
+                window.addEventListener('scroll', ()=>{
+                if(window.scrollY > 8) header.classList.add('scrolled'); else header.classList.remove('scrolled');
+                }, {passive:true});
+            }
+
+
+            // Smooth scroll for in-page anchors
+            document.addEventListener('click', (e)=>{
+                const a = e.target.closest('a[href^="#"]');
+                if(!a) return;
+                e.preventDefault();
+                const id = a.getAttribute('href');
+                const el = document.querySelector(id);
+                if(el) el.scrollIntoView({behavior:'smooth', block:'start'});
+                });
+        })();
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
 </body>
 </html>
