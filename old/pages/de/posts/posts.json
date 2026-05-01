@@ -5,15 +5,22 @@
     "excerpt": "Wieso die Vektoralgebra mich manchmal in den Wahnsinn treibt",
     "date": "2025-12-10",
     "tags": ["Mathematik","Lineare Algebra", "Funfacts", "WIP"],
-    "image": "https://picsum.photos/seed/post1/800/520"
+    "image": "/old/figures/isomorphism.png"
   },
   {
     "title": "Das Internet ist eine reine Zumutung",
     "link": "posts/post2.html",
-    "excerpt": "Wie die moderne Aufmerksamkeitsökonomie das Internet unbenutzbar macht",
+    "excerpt": "Wie die moderne Aufmerksamkeitsökonomie das Internet unbenutzbar macht \n\n  © Michael Kappeler/dpa",
     "date": "2025-12-10",
     "tags": ["Internet", "Gesellschaft", "eigene Meinung", "WIP"],
-    "image": "https://picsum.photos/seed/post2/800/520"
+    "image": "/old/figures/angie.jpg",
+    "image_source": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Angela_Merkel%2C_Juli_2010.jpg/960px-Angela_Merkel%2C_Juli_2010.jpg",
+      "author": "Armin Linnartz",
+      "license": "CC BY-SA 3.0 DE",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en",
+      "source": "wikimedia"
+    }
   },
   {
     "title": "Was für Arbeitsmodelle existieren und wie man versuchen kann mit diesen umzugehen",
@@ -349,6 +356,14 @@
     "excerpt": "Wie weit darf Meinungsfreiheit gehen? Und wo beginnt Hass? Sorgen soziale Medien dafür, dass Hass, Hetze und Propaganda sich stärker denn je verbreiten?",
     "date": "2025-12-10",
     "tags": ["Gesellschaft", "Diskurs", "Internet", "eigene Meinung", "WIP"],
+    "image": "https://picsum.photos/seed/post44/800/520"
+  },
+  {
+    "title": "Eine radikal naturalistische Sicht auf Moral und Ethik",
+    "link": "posts/post45.html",
+    "excerpt": "Schon Kant hat gefragt 'Was soll ich tun?' Was wäre, wenn aber jedes Sollen nur Ausdruck eines individuellen oder kolektiven Wollens ist? Was wäre, wenn Moral und Ethik letztlich nur uns die sprachliche Illusion verschaffen, normativ handeln zu können. Sind sämtliche moralische Urteile und normative Fragen nicht letztlich nur Ausdruck der Komplexität der menschlichen Bedürfnisse und komplett auf diese reduzierbar?",
+    "date": "2026-04-28",
+    "tags": ["Philosophie", "Gesellschaft", "Sprache", "eigene Meinung", "WIP"],
     "image": "https://picsum.photos/seed/post44/800/520"
   },
   {

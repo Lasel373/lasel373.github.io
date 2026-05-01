@@ -171,3 +171,7 @@ label.small{color:var(--muted)}
 .lang-toggle .lang-btn:hover {
   background-color: #777; /* hover effect */
 }
+
+.excerpt {
+  white-space: pre-line;
+}
