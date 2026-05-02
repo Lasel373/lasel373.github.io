@@ -195,3 +195,6 @@ Projektleitung, Leerstands-Aktivierung
 
 
 (die meisten haben einen Hintergrund in sozialer Arbeit, Pädagogik und Stadtplanung)
+---
+
+Bilder -> Lizenzen nochmal drüber schauen!; außerdem: mehr Referenzen zu Popkultur, usw (cyborg!!)

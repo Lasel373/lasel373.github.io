@@ -25,10 +25,10 @@
   {
     "title": "Was für Arbeitsmodelle existieren und wie man versuchen kann mit diesen umzugehen",
     "link": "posts/post3.html",
-    "excerpt": "Ein etwas persönlicherer Bericht über verschiedene Arbeitsformen und persönliche Erfahrungen",
+    "excerpt": "Ein etwas persönlicherer Bericht über verschiedene Arbeitsformen und persönliche Erfahrungen \n\n © Zerbor, Adobe Stock",
     "date": "2025-12-10",
     "tags": ["Arbeit", "Lebensstil", "Erfahrungsbericht", "WIP"],
-    "image": "https://picsum.photos/seed/post3/800/520"
+    "image": "/old/figures/arbeitsrecht.png"
   },
   {
     "title": "\"Perceptual Realism\" und Kritik an zeitgenössischer Filmkultur",
@@ -36,7 +36,7 @@
     "excerpt": "Plotholes, Cliffhanger, \"Suspension of disbelief\", zu viel Glätte, der Unterschied zwischen analoger und digitaler Fotographie und logische Inkonsistenzen",
     "date": "2025-12-10",
     "tags": ["Film", "Kultur", "eigene Meinung", "WIP"],
-    "image": "https://picsum.photos/seed/post4/800/520"
+    "image": "/old/figures/Photo-Comparison-Film-vs-Digital.jpg"
   },
   {
     "title": "Zwischen Sprachpurismus und Kulturwandel: Was passiert da mit der deutschen Sprache?",
@@ -44,23 +44,23 @@
     "excerpt": "Meine Meinung zu Anglizismen, anderen Lehnwörtern, und wie reich die deutsche Sprach doch eigentlich an schönen und nicht allzu hochtrabenden Worten ist",
     "date": "2025-12-10",
     "tags": ["Mathematik","Lineare Algebra", "eigene Meinung", "WIP"],
-    "image": "https://picsum.photos/seed/post5/800/520"
+    "image": "/old/figures/symbolbild-deutsch-englisch.png"
   },
   {
     "title": "Was macht gute Bildung aus?",
     "link": "posts/post6.html",
-    "excerpt": "Ein paar Anregungen zu Lehre allgemein, sowohl an allgemein-bildenden Schulen, wie auch Hochschulen, und wie ich gute Didaktik oft vermisse",
+    "excerpt": "Ein paar Anregungen zu Lehre allgemein, sowohl an allgemein-bildenden Schulen, wie auch Hochschulen, und wie ich gute Didaktik oft vermisse \n\n © A.Savin, FAL, via Wikimedia Commons",
     "date": "2025-12-10",
     "tags": ["Bildung", "Philosophie", "eigene Meinung", "WIP"],
-    "image": "https://picsum.photos/seed/post6/800/520"
+    "image": "/old/figures/Rostock_university.jpg"
   },
   {
     "title": "Ein kleiner Rant über Betreuungskultur",
     "link": "posts/post7.html",
-    "excerpt": "Ein etwas persönlicherer Einblick über Mentoring und vergangene Erfahrungen, und was gute Betreuung meiner Meinung nach auszeichnet",
+    "excerpt": "Ein etwas persönlicherer Einblick über Mentoring und vergangene Erfahrungen, und was gute Betreuung meiner Meinung nach auszeichnet \n\n © Pablo E. Fabisch, Public domain, via Wikimedia Commons",
     "date": "2025-12-10",
     "tags": ["Gesellschaft", "eigene Meinung", "Erfahrungsbericht", "WIP"],
-    "image": "https://picsum.photos/seed/post7/800/520"
+    "image": "/old/figures/Telemachus_and_Mentor1.jpg"
   },
   {
     "title": "Dataism und der gläserne Mensch",
@@ -68,7 +68,7 @@
     "excerpt": "Wie viel geben wir eigentlich über uns preis? Außerdem gehe ich ein bisschen darauf ein, was für Probleme mit der Mentalität des Datensammelns einhergehen",
     "date": "2025-12-10",
     "tags": ["Technologie", "Datenschutz", "eigene Meinung", "WIP"],
-    "image": "https://picsum.photos/seed/post8/800/520"
+    "image": "/old/figures/dataism.jpg"
   },
   {
     "title": "Trans-/Posthumanismus und das Streben nach Sinn",
@@ -76,7 +76,7 @@
     "excerpt": "Sollte nicht der Mensch im Fokus der Arbeit eines jeden Menschen stehen? Was machen wir mit Menschen, die sogar sich aktiv daran beteiligen, Systeme zu entwerfen, die den Menschen ersetzen sollen. Ich spreche nicht nur von Atombombem, sondern von KI und den teilweise kranken Vorstellungen der Menschen aus dem Silicon Valley",
     "date": "2025-12-10",
     "tags": ["Philosophie", "Transhumanismus", "eigene Meinung", "WIP"],
-    "image": "https://picsum.photos/seed/post9/800/520"
+    "image": "/old/figures/michelangelo_fresko.jpg"
   },
   {
     "title": "die logarithmische Wahrnehmung des Menschen",
@@ -84,7 +84,7 @@
     "excerpt": "Wusstest du, dass die menschliche Wahrnehmung häufig auf logarithmischen und nicht linearen Skalen verläuft?",
     "date": "2025-12-10",
     "tags": ["Psychologie", "Wahrnehmung", "Funfacts", "WIP"],
-    "image": "https://picsum.photos/seed/post10/800/520"
+    "image": "/old/figures/Neanderthals-drive-mammoth.jpg"
   },
   {
     "title": "die Gefahren und Chancen von KI, bes. generativer KI",
@@ -92,7 +92,7 @@
     "excerpt": "Aus Sicht eines Informatikers: Wie ich persönlich zu KI, bes. generativer KI, u.a. LLMs, Bildgeneratoren, usw. stehe. Welchen Nutzen bringt uns generative KI wirklich?",
     "date": "2025-12-10",
     "tags": ["KI", "Philosophie", "eigene Meinung", "WIP"],
-    "image": "https://picsum.photos/seed/post11/800/520"
+    "image": "/old/figures/attention_is_all_you_need.png"
   },
   {
     "title": "Wie ich Fremdsprachen lerne",
@@ -100,7 +100,7 @@
     "excerpt": "",
     "date": "2025-12-10",
     "tags": ["Sprache", "Kultur", "Erfahrungsbericht", "WIP"],
-    "image": "https://picsum.photos/seed/post12/800/520"
+    "image": "/old/figures/languages.jpg"
   },
   {
     "title": "Warum das Internet kein guter Ort zum (konstruktiven) Diskutieren ist",
@@ -108,7 +108,7 @@
     "excerpt": "Wieso ich soziale Medien zuweilen meide, und das Internet Gespräche unmöglich macht",
     "date": "2025-12-10",
     "tags": ["Diskurs", "Gesellschaft", "Internet", "eigene Meinung", "WIP"],
-    "image": "https://picsum.photos/seed/post13/800/520"
+    "image": "/old/figures/seeloewen.jpg"
   },
   {
     "title": "Die Entzauberung der Welt: warum ich wirklich Angst davor habe, wenn Menschen Wissen höher als Sinn und Harmonie schätzen",
@@ -116,7 +116,7 @@
     "excerpt": "Was passiert, wenn sämtliche anthropozentrischen Biases verschwinden? Sollte die Wissenschaft wirklich auf alles eine Antwort geben, oder ist Nichtwissen manchmal besser.",
     "date": "2025-12-10",
     "tags": ["Philosophie", "Wissenschaft", "eigene Meinung", "WIP"],
-    "image": "https://picsum.photos/seed/post14/800/520"
+    "image": "/old/figures/weber.jpg"
   },
   {
     "title": "Wieso Selbstoptimierung und -verbesserung nichts für mich ist",
@@ -124,7 +124,7 @@
     "excerpt": "ein sehr persönliches Thema: wieso Selbstoptimierung und -verbesserung nicht in mein Selbstkonzept passen",
     "date": "2025-12-10",
     "tags": ["Identität", "Selbstfindung", "eigene Meinung", "Erfahrungsbericht", "WIP"],
-    "image": "https://picsum.photos/seed/post15/800/520"
+    "image": "/old/figures/sisyphos.jpg"
   },
   {
     "title": "Antinatalismus zu Ende gedacht: warum Leid besser als Nichtexistenz ist",
@@ -132,7 +132,7 @@
     "excerpt": "Ein extrem emotionales und privates Thema, zu dem ich meine Meinung nicht ändern werde. Hier möchte ich nur Fragen stellen. Vielleicht sollte ich das auch rausnehmen.",
     "date": "2025-12-10",
     "tags": ["Philosophie", "Triggerwarnung", "eigene Meinung", "WIP"],
-    "image": "https://picsum.photos/seed/post16/800/520"
+    "image": ""
   },
   {
     "title": "die Subjektivierung der Geschlechter",
@@ -140,7 +140,7 @@
     "excerpt": "Viele verschiedene Aspekte werden hier angeschnitten: Wie ich persönlich zu Labels stehe, wie meine Sicht auf die Diskussion rund um Geschlechter ist, und wieso ich dann doch lieber von dem Thema distanziere",
     "date": "2025-12-10",
     "tags": ["Gesellschaft", "Identität", "Philosophie", "eigene Meinung", "Erfahrungsbericht", "WIP"],
-    "image": "https://picsum.photos/seed/post17/800/520"
+    "image": "/old/figures/vielfalt_flagge_JN.jpg"
   },
   {
     "title": "Darf man heutzutage überhaupt noch was sagen: Zwischen Cancel Culture und Meinungsfreiheit",
@@ -148,7 +148,7 @@
     "excerpt": "Meinungsfreiheit heißt nicht Widerspruchsfreiheit, und wieso Cancel Culture Zensur begünstigt.",
     "date": "2025-12-10",
     "tags": ["Gesellschaft", "Diskurs", "eigene Meinung", "WIP"],
-    "image": "https://picsum.photos/seed/post18/800/520"
+    "image": "/old/figures/gottschalk_lel.jpg"
   },
   {
     "title": "Warum ich kein \"Veganer\" bin",
@@ -156,7 +156,7 @@
     "excerpt": "Wieso ich mit vielen Prinzipien des Veganismus d'accord gehe und trotzdem tierische Produkte esse",
     "date": "2025-12-10",
     "tags": ["Tierethik", "Philosophie", "eigene Meinung", "WIP"],
-    "image": "https://picsum.photos/seed/post19/800/520"
+    "image": "/old/figures/chickens.jpg"
   },
   {
     "title": "Wie Sprache meine Beziehungen beeinflusst",
@@ -164,7 +164,7 @@
     "excerpt": "Wie Sprache selbst beeinflusst, wie ich meine Beziehungen lebe, ob Deutsch oder Englisch",
     "date": "2025-12-10",
     "tags": ["Sprache", "Erfahrungsbericht", "WIP"],
-    "image": "https://picsum.photos/seed/post20/800/520"
+    "image": "/old/figures/love.jpg"
   },
   {
     "title": "die \"Sapir-Whorf-Hypothese\" und was sie offenbart",
@@ -172,7 +172,7 @@
     "excerpt": "Wie Sprache unser Denken beeinflusst, wie sie Denken ermöglicht, aber auch begrenzt. Ein kurzer Exkurs zu Sprache und Ludwig Wittgenstein",
     "date": "2025-12-10",
     "tags": ["Funfacts", "Sprache", "Philosophie", "WIP"],
-    "image": "https://picsum.photos/seed/post21/800/520"
+    "image": "/old/figures/1984.jpeg"
   },
   {
     "title": "Warum Wissenschaft für mich normfrei ist",
@@ -180,7 +180,7 @@
     "excerpt": "Wissenschaft sagt uns nicht, was wir tun sollen. Sind moralische/normative Aussagen falsifizierbar?",
     "date": "2025-12-10",
     "tags": ["Wissenschaft", "Philosophie", "eigene Meinung", "WIP"],
-    "image": "https://picsum.photos/seed/post22/800/520"
+    "image": "/old/figures/moore.jpg"
   },
   {
     "title": "Missverständnisse beim Klimawandel und globaler Erwärmung",
@@ -188,7 +188,7 @@
     "excerpt": "Klarstellung der aktuellen Erkenntnisse zum Klimawandel, mit ein paar persönlichen Ausschweifungen",
     "date": "2025-12-10",
     "tags": ["Wissenschaft", "Funfacts", "eigene Meinung", "WIP"],
-    "image": "https://picsum.photos/seed/post23/800/520"
+    "image": "/old/figures/klimawandel.jpg"
   },
   {
     "title": "Wieso Erziehung nicht reine Privatsache bleiben darf",
@@ -196,7 +196,7 @@
     "excerpt": "Haben Kinder ein Recht auf Liebe? Sollten Kinder nicht in einer sicheren Umgebung aufwachsen dürfen? Außerdem: Wie gehen wir als Gesellschaft damit um, wenn Kinder schon früh Zugang zum Internet haben? Und wer trägt die eigentliche Verantwortung bei der Erziehung: Eltern oder die Schule? Wie können wir Kindern zu selbstbewussten, mündigen Erwachsenen heranziehen?",
     "date": "2025-12-10",
     "tags": ["Gesellschaft", "eigene Meinung", "WIP"],
-    "image": "https://picsum.photos/seed/post24/800/520"
+    "image": "/old/figures/family.jpg"
   },
   {
     "title": "Asoziale Medien: Wieso ich soziale Medien meide",
@@ -204,7 +204,7 @@
     "excerpt": "Wieso ich immer selektiver soziale Medien verwende und immer weniger Mehrwert in ihnen sehe",
     "date": "2025-12-10",
     "tags": ["Internet", "eigene Meinung", "Erfahrungsbericht", "WIP"],
-    "image": "https://picsum.photos/seed/post25/800/520"
+    "image": "/old/figures/social_media.jpg"
   },
   {
     "title": "Wieso Zeit nicht genutzt werden muss: Ein Plädoyer gegen das industrialisierte Bild von Arbeit",
@@ -212,7 +212,7 @@
     "excerpt": "Gebt einen Scheiß auf Leute, die euch vorwerfen, dass ihr eure Zeit verschwendet. Ein recht umfassender Artikel zu Produktivität, Zielen im Leben, der Sinn von Freizeit, Arbeit, und viele Ausschweifungen zu vielen Themen",
     "date": "2025-12-10",
     "tags": ["Arbeit", "Identität", "Philosophie", "eigene Meinung", "Erfahrungsbericht", "WIP"],
-    "image": "https://picsum.photos/seed/post26/800/520"
+    "image": "/old/figures/momo.jpg"
   },
   {
     "title": "Was zeichnet Intelligenz aus? Und ist KI intelligent?",
@@ -364,7 +364,7 @@
     "excerpt": "Schon Kant hat gefragt 'Was soll ich tun?' Was wäre, wenn aber jedes Sollen nur Ausdruck eines individuellen oder kolektiven Wollens ist? Was wäre, wenn Moral und Ethik letztlich nur uns die sprachliche Illusion verschaffen, normativ handeln zu können. Sind sämtliche moralische Urteile und normative Fragen nicht letztlich nur Ausdruck der Komplexität der menschlichen Bedürfnisse und komplett auf diese reduzierbar?",
     "date": "2026-04-28",
     "tags": ["Philosophie", "Gesellschaft", "Sprache", "eigene Meinung", "WIP"],
-    "image": "https://picsum.photos/seed/post44/800/520"
+    "image": "/old/figures/Immanuel_Kant_portrait.jpg"
   },
   {
     "title": "weitere Blogidden",
