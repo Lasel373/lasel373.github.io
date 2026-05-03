@@ -220,7 +220,7 @@
     "excerpt": "Selbst wir Informatiker wissen gar nicht so recht, was Intelligenz ausmacht. Wir bauen einfach nur Systeme. In einigen Medien wird der Begriff Intelligenz teilweise stark polarisiert. Schauen wir doch mal, was Intelligenz wirklich ausmacht, und ob wir überhaupt sinnvoll über sie sprechen können.",
     "date": "2025-12-10",
     "tags": ["Philosophie", "KI", "Wissenschaft", "Funfacts", "eigene Meinung", "WIP"],
-    "image": "https://picsum.photos/seed/post27/800/520"
+    "image": "/old/figures/brain_in_a_jar.jpg"
   },
   {
     "title": "Nihilismus, mein alter Freund",
@@ -228,7 +228,7 @@
     "excerpt": "Ein etwas persönlicherer Artikel mit vielen Ausschweifungen, weil ich nicht auf den Punkt kommen kann. Vielleicht lösche ich den hier.",
     "date": "2025-12-10",
     "tags": ["Philosophie", "eigene Meinung", "Erfahrungsbericht", "WIP"],
-    "image": "https://picsum.photos/seed/post28/800/520"
+    "image": "/old/figures/dont_open.jpg"
   },
   {
     "title": "Factfulness und warum wir es heute so verdammt gut haben",
@@ -236,7 +236,7 @@
     "excerpt": "Kennst du die hedonistische Tretmühle? Eigentlich lebt der Großteil der Menschen in Industrieländern in einem noch nie dagewesenen Zustand an Wohlstand und Dekadenz. Im Vergleich zu Menschen vor uns leben wir wie die Könige. Trotzdem scheint es nicht so als ob Menschen das erkennen, und schätzen. Manchmal soltlen wir zurückschauen und sehen, wie verdammt gut wir es eigentlich haben. Wir können für so vieles immens dankbar sein.",
     "date": "2025-12-10",
     "tags": ["Gesellschaft", "eigene Meinung", "WIP"],
-    "image": "https://picsum.photos/seed/post29/800/520"
+    "image": "/old/figures/rosling_factfulness.jpg"
   },
   {
     "title": "Theodizee und ein paar Anregungen von mir zum Agnostizismus",
@@ -244,7 +244,7 @@
     "excerpt": "Hier soll es weniger um eine vollständige Erläuterung zu den Positionen der Gottesfrage gehen, sondern eher darum, wie ich persönlich auf die Gottesfrage blicke, und warum Gott für mich nicht nicht existiert.",
     "date": "2025-12-10",
     "tags": ["Religion", "Philosophie", "eigene Meinung", "WIP"],
-    "image": "https://picsum.photos/seed/post30/800/520"
+    "image": "/old/figures/religions_hands.jpg"
   },
   {
     "title": "Wie ich Spiritualität lebe",
@@ -252,7 +252,7 @@
     "excerpt": "Man könnte meinen, dass jemand wie ich kaum religiös ist. Das stimmt (so wie ich das sehe) nicht.",
     "date": "2025-12-10",
     "tags": ["Religion", "Philosophie", "Wissenschaft", "Identität", "eigene Meinung", "WIP"],
-    "image": "https://picsum.photos/seed/post31/800/520"
+    "image": "/old/figures/lotus.jpg"
   },
   {
     "title": "Warum Träume so faszinierend sind",
@@ -260,7 +260,7 @@
     "excerpt": "Wusstest du, dass jeder Mensch träumt, auch wenn mansich nicht mehr an sie erinnern kann? Hast du schon mal ne Astralreise gemacht, oder schon mal luzid geträumt?",
     "date": "2025-12-10",
     "tags": ["Wissenschaft", "Funfacts", "WIP"],
-    "image": "https://picsum.photos/seed/post32/800/520"
+    "image": "/old/figures/milky_way.png"
   },
   {
     "title": "Wie wird Religion in 1.000 Jahren gelebt?",
@@ -268,7 +268,7 @@
     "excerpt": "Wie wird sich Religion in den nächsten Jahrhunderten bzw. Jahrtausenden weiterentwickeln. Ich denke nicht, dass der Mensch Religion als Ganzes verliert, sondern ein jeder eine säkuläre Form von Religion leben könnte. Ich glaube, dass Kirchen sich zu pluralistischen Sinnstätten transformieren könnten.",
     "date": "2025-12-10",
     "tags": ["Religion", "eigene Meinung", "WIP"],
-    "image": "https://picsum.photos/seed/post33/800/520"
+    "image": "/old/figures/sakrale_kunst.jpg"
   },
   {
     "title": "Warum die Demokratie das kleinste Übel ist",
@@ -276,7 +276,7 @@
     "excerpt": "Ist Demokratie eine wirklich tragfähige Form, um Gesellschaften und Staaten zu strukturieren und zu beherrschen? Trotz der Schwächen der Demokratie, ist sie meiner Meinung nach die beste Staatsform, die wir momentan haben.",
     "date": "2025-12-10",
     "tags": ["Politik", "Gesellschaft", "eigene Meinung", "WIP"],
-    "image": "https://picsum.photos/seed/post34/800/520"
+    "image": "/old/figures/reichstag_collage.png"
   },
   {
     "title": "Wieso Meritokratie Menschenrechte verletzt",
@@ -284,7 +284,7 @@
     "excerpt": "Was wäre, wenn nicht Kapitel über die Chancen eines Menschen entscheidet, sondern jeder genau das macht, was er oder sie kann? Was wäre, wenn Menschen nach ihren tatsächlichem Können bezahlt werden würden?",
     "date": "2025-12-10",
     "tags": ["Politik", "Gesellschaft", "eigene Meinung", "WIP"],
-    "image": "https://picsum.photos/seed/post35/800/520"
+    "image": "/old/figures/Scuola_di_Atene.jpg"
   },
   {
     "title": "Zwischen Szientismmus und Subjektivismus: kritischer Rationalismus gepaart mit Offenheit zum Leben",
@@ -292,7 +292,7 @@
     "excerpt": "Was ist letztlich wahr? Wie viel Bedeutung ordnen wir intersubjektiven und subjektivem Wissen zu? Und wieso es gefährlich sein kann, wenn man entweder nur der Wissenschaft oder nur sich selbst traut.",
     "date": "2025-12-10",
     "tags": ["Philosophie", "Wissenschaft", "eigene Meinung", "WIP"],
-    "image": "https://picsum.photos/seed/post36/800/520"
+    "image": "/old/figures/popper.jpg"
   },
   {
     "title": "Sollte der Bildungsföderalismus abgeschafft werden?",
@@ -300,7 +300,7 @@
     "excerpt": "Ursprünglich wurde nach dem 2. Weltkrieg zur Verhinderung des Missbrauchs des Bildungssystem dieses dezentralisiert. Dies sollte u.a. verhindern, dass kontrollierende Instanzen wie die Gestapo oder die StaSi dsa Bildungssystem unterwandern. Außerdem sollte die Verbreitung von Propaganda erschwert werden. Aber was bringt uns der Föderalismus heute? Ist es nicht Zeit, unser nationales Bildungssystem fundamental zu überdenken?",
     "date": "2025-12-10",
     "tags": ["Politik", "Gesellschaft", "Bildung", "eigene Meinung", "WIP"],
-    "image": "https://picsum.photos/seed/post37/800/520"
+    "image": "/old/figures/deutschland_bundeslaender_flagge.jpg"
   },
   {
     "title": "der kategorische Imperativ und wie er kläglich versagt",
