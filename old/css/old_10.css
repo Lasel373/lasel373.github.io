@@ -1,0 +1,287 @@
+
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            background: #d4d9e2 url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAAIklEQVQYV2NkYGBoYmBg+M8ABUxgKjAysDAwMTCAACYAAOkGBkBu8pJWAAAAAElFTkSuQmCC') repeat;
+            font-family: 'Helvetica Neue', Arial, Helvetica, sans-serif;
+            font-size: 14px;
+            line-height: 1.5;
+            color: #222;
+        }
+      
+        #wrapper {
+            width: 960px;
+            margin: 20px auto 0;
+            background: #fff;
+            -webkit-box-shadow: 0 0 12px rgba(0,0,0,0.2);
+            -moz-box-shadow: 0 0 12px rgba(0,0,0,0.2);
+            box-shadow: 0 0 12px rgba(0,0,0,0.15);
+            border-radius: 8px;
+        }
+       
+        #header {
+            background: #f2f5f8;
+            border-bottom: 1px solid #cbd5e0;
+            padding: 15px 20px;
+            border-radius: 8px 8px 0 0;
+        }
+        .logo {
+            float: left;
+            font-size: 28px;
+            font-weight: bold;
+            background: linear-gradient(135deg, #2c5a7a, #1a3f59);
+            -webkit-background-clip: text;
+            -moz-background-clip: text;
+            background-clip: text;
+            color: transparent;
+            text-shadow: 1px 1px 0 rgba(255,255,255,0.8);
+        }
+        /* Suchformular */
+        .nav-search {
+            float: right;
+            margin-top: 5px;
+        }
+        .nav-search input {
+            padding: 6px 10px;
+            border: 1px solid #bac4d0;
+            border-radius: 20px;
+            background: #fff;
+            width: 180px;
+            font-size: 12px;
+            -webkit-box-shadow: inset 0 1px 2px rgba(0,0,0,0.05);
+            -moz-box-shadow: inset 0 1px 2px rgba(0,0,0,0.05);
+            box-shadow: inset 0 1px 2px rgba(0,0,0,0.05);
+        }
+        /* Navigation*/
+        #nav {
+            clear: both;
+            padding-top: 12px;
+        }
+        #nav ul {
+            list-style: none;
+            float: left;
+        }
+        #nav ul li {
+            float: left;
+            margin-right: 25px;
+        }
+        #nav ul li a {
+            text-decoration: none;
+            color: #3a6a8e;
+            font-weight: 600;
+            font-size: 14px;
+            padding-bottom: 4px;
+            border-bottom: 2px solid transparent;
+        }
+        #nav ul li a:hover {
+            border-bottom-color: #7fa2be;
+            color: #1e4968;
+        }
+        /* Clearfix für Float-Container */
+        .clearfix:after {
+            content: ".";
+            display: block;
+            height: 0;
+            clear: both;
+            visibility: hidden;
+        }
+        .clearfix {
+            display: inline-block;
+        }
+        /* Hides from IE-mac \*/
+        * html .clearfix { height: 1%; }
+        .clearfix { display: block; }
+        /* End hide */
+        
+        
+        .hero {
+            background: #eef3fc;
+            padding: 50px 20px;
+            text-align: center;
+            border-bottom: 1px solid #d6e0ec;
+            background-image: -webkit-gradient(linear, left top, left bottom, from(#f9fcff), to(#e2ebf5));
+            background-image: -webkit-linear-gradient(top, #f9fcff, #e2ebf5);
+            background-image: -moz-linear-gradient(top, #f9fcff, #e2ebf5);
+            background-image: -o-linear-gradient(top, #f9fcff, #e2ebf5);
+            background-image: linear-gradient(to bottom, #f9fcff, #e2ebf5);
+        }
+        .hero h1 {
+            font-size: 42px;
+            color: #1d3e5c;
+            text-shadow: 2px 2px 0 rgba(255,255,255,0.6);
+            margin-bottom: 12px;
+        }
+        .hero p {
+            font-size: 18px;
+            color: #4a627a;
+            width: 70%;
+            margin: 0 auto 20px;
+        }
+        .btn-primary {
+            display: inline-block;
+            padding: 10px 28px;
+            background: #437e9e;
+            background: -webkit-gradient(linear, left top, left bottom, from(#5a9ac0), to(#2f6a8c));
+            background: -webkit-linear-gradient(top, #5a9ac0, #2f6a8c);
+            background: -moz-linear-gradient(top, #5a9ac0, #2f6a8c);
+            background: -o-linear-gradient(top, #5a9ac0, #2f6a8c);
+            background: linear-gradient(to bottom, #5a9ac0, #2f6a8c);
+            border: 1px solid #255b7a;
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+            border-radius: 40px;
+            -webkit-border-radius: 40px;
+            -moz-border-radius: 40px;
+            -webkit-box-shadow: 0 2px 5px rgba(0,0,0,0.2), inset 0 1px 0 rgba(255,255,255,0.3);
+            -moz-box-shadow: 0 2px 5px rgba(0,0,0,0.2), inset 0 1px 0 rgba(255,255,255,0.3);
+            box-shadow: 0 2px 5px rgba(0,0,0,0.2), inset 0 1px 0 rgba(255,255,255,0.3);
+            text-shadow: 0 1px 0 #1f4e6b;
+        }
+        .btn-primary:hover {
+            background: #5c9bbe;
+            background: -webkit-gradient(linear, left top, left bottom, from(#6aaacb), to(#3c7c9e));
+            background: -webkit-linear-gradient(top, #6aaacb, #3c7c9e);
+            background: -moz-linear-gradient(top, #6aaacb, #3c7c9e);
+            background: -o-linear-gradient(top, #6aaacb, #3c7c9e);
+            background: linear-gradient(to bottom, #6aaacb, #3c7c9e);
+            cursor: pointer;
+        }
+        /* ---------- CONTENT SECTIONS ---------- */
+        .content-section {
+            background: #fff;
+            padding: 25px 30px;
+            margin: 20px 25px;
+            border: 1px solid #e2e8f0;
+            border-radius: 12px;
+            -webkit-border-radius: 12px;
+            -moz-border-radius: 12px;
+            -webkit-box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+            -moz-box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+            box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        }
+        .content-section h2 {
+            font-size: 28px;
+            color: #2c577b;
+            border-left: 6px solid #608faf;
+            padding-left: 15px;
+            margin-bottom: 15px;
+            font-weight: normal;
+        }
+        .content-section p {
+            color: #3b4d64;
+            font-size: 15px;
+            margin-bottom: 8px;
+        }
+        /* ---------- FOOTER  ---------- */
+        #footer {
+            background: #eef3fa;
+            border-top: 1px solid #cfdbe8;
+            padding: 25px 20px 15px;
+            border-radius: 0 0 8px 8px;
+            margin-top: 25px;
+        }
+        .footer-col {
+            float: left;
+            width: 22%;
+            margin-right: 3%;
+        }
+        .footer-col.last {
+            margin-right: 0;
+        }
+        .footer-col h4 {
+            font-size: 16px;
+            color: #2f5d81;
+            border-bottom: 1px solid #c1cfdf;
+            padding-bottom: 5px;
+            margin-bottom: 12px;
+        }
+        .footer-col ul {
+            list-style: none;
+        }
+        .footer-col ul li {
+            margin-bottom: 6px;
+        }
+        .footer-col ul li a {
+            color: #4e6e8c;
+            text-decoration: none;
+            font-size: 12px;
+        }
+        .footer-col ul li a:hover {
+            text-decoration: underline;
+            color: #1f5277;
+        }
+        .social-icons a {
+            display: inline-block;
+            margin-right: 6px;
+            width: 32px;
+            height: 32px;
+            background: #dce5ef;
+            border-radius: 30px;
+            text-align: center;
+            line-height: 32px;
+            border: 1px solid #b9c6d4;
+        }
+        .social-icons svg {
+            width: 18px;
+            height: 18px;
+            vertical-align: middle;
+            fill: #3a6b8f;
+        }
+        .newsletter-form input {
+            width: 85%;
+            padding: 6px;
+            border: 1px solid #bac6d4;
+            border-radius: 16px;
+            margin-bottom: 8px;
+        }
+        .newsletter-form button {
+            background: #4a7b9c;
+            border: none;
+            padding: 5px 12px;
+            border-radius: 20px;
+            color: white;
+            font-weight: bold;
+            cursor: pointer;
+        }
+        .footer-legal {
+            clear: both;
+            padding-top: 20px;
+            margin-top: 15px;
+            border-top: 1px solid #cad3df;
+            font-size: 11px;
+            color: #6e7f95;
+            text-align: center;
+        }
+        .footer-legal a {
+            color: #4f7496;
+            text-decoration: none;
+            margin: 0 6px;
+        }
+        /* Back to top – old school fixed */
+        #back-to-top {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background: #3c6e8f;
+            color: #fff;
+            width: 48px;
+            height: 48px;
+            text-align: center;
+            line-height: 48px;
+            font-size: 28px;
+            border-radius: 50px;
+            opacity: 0.6;
+            cursor: pointer;
+            border: 1px solid #23506d;
+            -webkit-box-shadow: 0 1px 4px rgba(0,0,0,0.3);
+            -moz-box-shadow: 0 1px 4px rgba(0,0,0,0.3);
+            box-shadow: 0 1px 4px rgba(0,0,0,0.3);
+            font-weight: bold;
+        }
+        #back-to-top:hover {
+            opacity: 1;
+            background: #558bb0;
+        }

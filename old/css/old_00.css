@@ -1,0 +1,41 @@
+body {
+            background-color: #dbd2c2;
+            margin: 10px;
+            font-family: "Times New Roman", "Comic Sans MS", serif;
+            color: #2e2b26;
+        }
+        a {
+            color: #7a5d3a;
+            text-decoration: underline;
+        }
+        a:visited {
+            color: #9b8464;
+        }
+        .btn {
+            background-color: #c1aa7c;
+            border: 3px outset #e0cba2;
+            padding: 6px 15px;
+            font-family: "Courier New", monospace;
+            font-weight: bold;
+            text-decoration: none;
+            color: #2f2a1f;
+        }
+        .btn:hover {
+            background-color: #a88f62;
+            border: 3px inset #e0cba2;
+            color: white;
+        }
+        .counter {
+            font-family: "Courier New", monospace;
+            background: #e3d8c8;
+            border: 1px solid #cbba9f;
+            padding: 3px 6px;
+            font-size: 12px;
+        }
+        .under-construction {
+            font-family: "Courier New", monospace;
+            background: #e3d8c8;
+            border: 1px solid #cbba9f;
+            padding: 3px 6px;
+            font-size: 12px;
+        }

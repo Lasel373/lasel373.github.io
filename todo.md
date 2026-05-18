@@ -198,3 +198,36 @@ Projektleitung, Leerstands-Aktivierung
 ---
 
 Bilder -> Lizenzen nochmal drüber schauen!; außerdem: mehr Referenzen zu Popkultur, usw (cyborg!!)
+
+eigene Schriftart!!!
+
+Ein Gästebuch, das wirklich Einträge speichert (als CGI/Perl oder einfache Textdatei).
+
+Eine „Under Construction“-Grafik mit einem blinkenden Bagger (GIF).
+
+Ein Midifile, das automatisch abspielt (mit <bgsound> oder <embed>).
+
+Ein Favicon (z. B. eine kleine Diskette oder ein Smiley).
+
+Ein E-Mail-Symbol mit mailto:.
+
+
+--
+neocities, geocities
+
+gifcities.org
+
+--
+viewport-meta?
+reponsives Design
+
+UTF-8, nicht windows-1252
+
+semantische Tags (header, main, section), WCAG-Richtlinien
+
+keine alt-Texte!!
+
+flexbox, grid
+
+mobile first!
+
